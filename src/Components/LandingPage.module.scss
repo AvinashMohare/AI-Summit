@@ -1,0 +1,33 @@
+.LandingPage {
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    img {
+        width: 98vw;
+        height: auto;
+    }
+
+    .regButton {
+        margin-top: 30px;
+
+        a {
+            padding: 12px 20px;
+            background-color: transparent;
+            color: white;
+            border: 2px solid blueviolet;
+            border-radius: 20px;
+            font-size: 20px;
+            text-decoration: none;
+
+            transition-duration: 0.4s;
+            cursor: pointer;
+        }
+
+        & :hover {
+            color: black;
+            background-color: rgb(236, 230, 230);
+        }
+    }
+}

@@ -1,7 +1,14 @@
 import "./App.css";
+import Header from "./Components/Header";
+import LandingPage from "./Components/LandingPage";
 
 function App() {
-    return <h1>AI Summit</h1>;
+    return (
+        <div>
+            <Header />
+            <LandingPage />
+        </div>
+    );
 }
 
 export default App;
