@@ -1,17 +1,13 @@
 .imageContainer {
-    min-height: 100vh;
+    min-height: 101vh;
     // background-color: cadetblue;
-    background-image: linear-gradient(
-            to bottom,
-            transparent,
-            transparent,
-            #141414
-        ),
+    background-image: linear-gradient(to bottom, transparent, #000000),
         url("../Assets/LandingPageImg.jpg");
     background-repeat: no-repeat;
     background-position: center;
-    background-attachment: fixed;
+    // background-attachment: fixed;
     background-size: cover;
+
     // background: black;
 
     // .img {
@@ -21,6 +17,7 @@
     //     object-fit: cover;
     // }
 
+    // border-bottom: 2px solid whitesmoke;
     .contentWrapper {
         position: absolute;
         top: 50%;

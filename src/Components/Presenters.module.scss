@@ -1,0 +1,14 @@
+.rootPresenters {
+    height: 100vh;
+    // width: 100vw;
+    background-color: black;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    p {
+        color: white;
+        font-size: 60px;
+    }
+}
