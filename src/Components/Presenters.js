@@ -1,14 +1,12 @@
 import React from "react";
+import Heading from "./Heading";
 
-import classes from "./Presenters.module.scss";
+import classes from "../Assets/Styles/Presenters.module.scss";
 
 const Presenters = () => {
     return (
         <div className={classes.rootPresenters}>
-            <p>Presenters</p>
-            <div className={classes.logos}>
-                <img></img>
-            </div>
+            <Heading>Presenters</Heading>
         </div>
     );
 };

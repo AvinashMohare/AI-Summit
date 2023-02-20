@@ -1,6 +1,6 @@
-import image from "../Assets/LandingPageImg.jpg";
+// import image from "../Assets/Images/LandingPageImg.jpg";
 import Header from "./Header";
-import classes from "./LandingPage.module.scss";
+import classes from "../Assets/Styles/LandingPage.module.scss";
 
 const LandingPage = () => {
     return (

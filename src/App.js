@@ -3,6 +3,7 @@ import "./App.css";
 import LandingPage from "./Components/LandingPage";
 import Presenters from "./Components/Presenters";
 import About from "./Components/About";
+import Glimpses from "./Components/Glimpses";
 
 function App() {
     return (
@@ -11,6 +12,7 @@ function App() {
             <LandingPage />
             <Presenters />
             <About />
+            <Glimpses />
         </div>
     );
 }
