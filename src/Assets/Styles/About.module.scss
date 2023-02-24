@@ -1,9 +1,40 @@
 .rootAbout {
     min-height: 100vh;
     background-color: black;
+    // min-width: 1100px;
+    // display: flex;
+    // justify-content: center;
+    // align-items: center;
     // width: 1100px;
     // display: flex;
     // flex-direction: row;
     // justify-content: center;
     // align-items: center;
+
+    .contentContainer {
+        display: flex;
+        flex-direction: row;
+
+        .content {
+            width: 800px;
+            display: flex;
+            flex-direction: column;
+            // justify-content: flex-start;
+            align-items: start;
+            margin-left: 160px;
+            margin-right: 60px;
+            // padding: 50px;
+
+            p {
+                color: white;
+                font-size: 20px;
+                font-weight: 400;
+                padding-top: 15px;
+            }
+
+            .images {
+                margin: 20px;
+            }
+        }
+    }
 }

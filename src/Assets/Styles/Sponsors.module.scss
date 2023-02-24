@@ -1,0 +1,21 @@
+.rootSponsors {
+    margin-top: 200px;
+    min-height: 100vh;
+    background-color: black;
+
+    .content {
+        .card {
+            .Logo {
+                // border-radius: 50px;
+                // max-width: 25px;
+                // max-height: 25px;
+                img {
+                    margin-left: 170px;
+                    border-radius: 50%;
+                    height: 100px;
+                    width: auto;
+                }
+            }
+        }
+    }
+}
