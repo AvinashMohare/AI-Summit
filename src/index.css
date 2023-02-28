@@ -4,6 +4,14 @@
     box-sizing: border-box;
 
     transition: all 500ms;
+
+    outline: none;
+    border: none;
+
+    text-decoration: none;
+
+    list-style: none;
+    list-style-type: none;
 }
 
 body {
