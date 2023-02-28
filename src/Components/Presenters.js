@@ -6,7 +6,7 @@ import classes from "../Assets/Styles/Presenters.module.scss";
 const Presenters = () => {
     return (
         <div className={classes.rootPresenters}>
-            <Heading>Presenters</Heading>
+            <Heading>Speakers</Heading>
         </div>
     );
 };

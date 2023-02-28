@@ -1,10 +1,14 @@
 .rootAbout {
-    min-height: 100vh;
-    background-color: black;
+    // min-height: 100vh;
+    // width: 1100px;
+    // background-color: rgb(11, 16, 40);
+    // margin-bottom: 150px;
+
     // min-width: 1100px;
-    // display: flex;
-    // justify-content: center;
-    // align-items: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
     // width: 1100px;
     // display: flex;
     // flex-direction: row;
@@ -12,17 +16,21 @@
     // align-items: center;
 
     .contentContainer {
+        width: 1300px;
+        margin: 0 auto;
         display: flex;
         flex-direction: row;
+        justify-content: flex-start;
+        justify-content: space-between;
 
         .content {
             width: 800px;
             display: flex;
             flex-direction: column;
-            // justify-content: flex-start;
+            justify-content: flex-start;
             align-items: start;
-            margin-left: 160px;
-            margin-right: 60px;
+            margin: auto;
+            // margin-right: 60px;
             // padding: 50px;
 
             p {
@@ -33,7 +41,7 @@
             }
 
             .images {
-                margin: 20px;
+                // margin: 10px;
             }
         }
     }

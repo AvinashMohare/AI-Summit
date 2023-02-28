@@ -6,13 +6,6 @@ const Sponsors = () => {
     return (
         <div className={classes.rootSponsors}>
             <Heading>Sponsors</Heading>
-            <div className={classes.content}>
-                <div className={classes.card}>
-                    <div className={classes.Logo}>
-                        <img src={Logo1} />
-                    </div>
-                </div>
-            </div>
         </div>
     );
 };
