@@ -1,83 +1,125 @@
 .main {
-    min-height: 100vh;
+  min-height: 100vh;
+  width: 100%;
+  margin-bottom: 150px;
+  // overflow: hidden;
+  // position: relative;
+
+  * canvas {
+    top: 0;
+    left: 0;
     width: 100%;
-    margin-bottom: 150px;
-    // overflow: hidden;
-    // position: relative;
+    height: 100vh;
+  }
+  .a {
+    height: 100vh;
+    // width: 100%;
+    position: relative;
 
-    * canvas {
-        top: 0;
-        left: 0;
-        width: 100%;
-        height: 100vh;
+    .c {
+      position: absolute;
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: 100%;
+      z-index: 1;
+      background-color: rgba(0, 0, 0, 0.4);
     }
-    .a {
-        height: 100vh;
-        // width: 100%;
-        position: relative;
+  }
 
-        .c {
-            position: absolute;
-            top: 0;
-            left: 0;
-            width: 100%;
-            height: 100%;
-            z-index: 1;
-            background-color: rgba(0, 0, 0, 0.4);
+  .b {
+    .contentWrapper {
+      z-index: 10;
+      position: absolute;
+      top: 50%;
+      left: 50%;
+      transform: translate(-50%, -50%);
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+
+      .imageText {
+        .line1 {
+          color: white;
+          font-size: 30px;
+          font-weight: bold;
+          text-align: center;
         }
-    }
 
+        .line2 {
+          // width: 1100px;
+          letter-spacing: 0.03em;
+          color: white;
+          font-size: 70px;
+          font-weight: bold;
+          text-align: center;
+        }
+      }
+
+      .regButton {
+        margin-top: 80px;
+
+        a {
+          padding: 8px 15px;
+          background-color: transparent;
+          color: white;
+          border: 2px solid white;
+          border-radius: 36px;
+          font-size: 20px;
+          text-decoration: none;
+
+          transition-duration: 0.4s;
+          cursor: pointer;
+        }
+
+        & :hover {
+          color: black;
+          background-color: white;
+        }
+      }
+    }
+  }
+}
+
+@media screen and (max-width: 850px) {
+  .main {
     .b {
-        .contentWrapper {
-            z-index: 10;
-            position: absolute;
-            top: 50%;
-            left: 50%;
-            transform: translate(-50%, -50%);
-            display: flex;
-            flex-direction: column;
-            justify-content: center;
-            align-items: center;
-
-            .imageText {
-                .line1 {
-                    color: white;
-                    font-size: 30px;
-                    font-weight: bold;
-                    text-align: center;
-                }
-
-                .line2 {
-                    // width: 1100px;
-                    letter-spacing: 0.03em;
-                    color: white;
-                    font-size: 120px;
-                    font-weight: bold;
-                    text-align: center;
-                }
-            }
-
-            .regButton {
-                margin-top: 80px;
-
-                a {
-                    padding: 8px 15px;
-                    background-color: transparent;
-                    color: white;
-                    border: 2px solid white;
-                    border-radius: 36px;
-                    font-size: 20px;
-                    text-decoration: none;
-
-                    transition-duration: 0.4s;
-                    cursor: pointer;
-                }
-
-                & :hover {
-                    color: black;
-                    background-color: white;
-                }
-            }
+      .contentWrapper {
+        .imageText {
+          .line2 {
+            font-size: 50px;
+          }
         }
+      }
     }
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .main {
+    .b {
+      .contentWrapper {
+        .imageText {
+          .line2 {
+            font-size: 35px;
+          }
+        }
+      }
+    }
+  }
+}
+
+@media screen and (max-width: 450px) {
+  .main {
+    .b {
+      .contentWrapper {
+        .imageText {
+          .line2 {
+            font-size: 28px;
+          }
+        }
+      }
+    }
+  }
 }
