@@ -39,6 +39,7 @@
         .imageGallery {
             .image {
                 &.vertical {
+                    // display: none;
                     grid-row: span 2 / auto;
                 }
                 &.horizontal {

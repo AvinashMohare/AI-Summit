@@ -1,0 +1,21 @@
+.loading {
+    background-color: rgb(11, 16, 40);
+
+    height: 100vh;
+    width: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    .events {
+        // font-size: 100px;
+        // color: white;
+        background: linear-gradient(-45deg, #e250e5, #4b50e6);
+        font-size: 100px;
+        font-weight: 600;
+        -webkit-background-clip: text;
+        // -webkit-text-stroke: 1px white;
+        -webkit-text-fill-color: transparent;
+        // text-shadow: 1px 0px 0px white;
+    }
+}

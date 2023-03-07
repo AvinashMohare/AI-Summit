@@ -73,7 +73,8 @@
         // letter-spacing: 1.5px;
         font-weight: 500;
         font-size: 1.4em;
-        color: Red;
+        color: rgb(145, 156, 219);
+
         padding-bottom: 5px;
     }
 
@@ -105,7 +106,7 @@
             position: absolute;
             display: block;
             top: 10;
-            color: red;
+            color: rgb(145, 156, 219);
             // font-weight: 700;
         }
 
@@ -122,12 +123,12 @@
         &:after {
             box-shadow: 0 0 0 4px fade(#4298c3, 100%);
             left: -57.85px;
-            background: lighten(#252827, 5%);
+            background: lighten(white, 5%);
             border-radius: 50%;
             height: 11px;
             width: 11px;
             content: "";
-            top: 28px;
+            top: 30px;
         }
     }
 }

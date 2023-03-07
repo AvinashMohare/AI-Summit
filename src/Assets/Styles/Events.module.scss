@@ -1,3 +1,36 @@
 .rootEvents {
     padding-bottom: 100px;
+    width: 1100px;
+    margin: auto;
+
+    .buttons {
+        display: flex;
+        // margin: 20px;
+
+        .button {
+            // height: 150px;
+            // width: 150px;
+            // background-color: aqua;
+            // border: 1px solid white;
+            // border-radius: 10px;
+            margin-left: 20px;
+            width: fit-content;
+            padding: 8px 15px;
+            color: white;
+            background-color: rgba(137, 203, 241, 0.2);
+            backdrop-filter: blur(2px);
+            // border: 2px solid white;
+            border: 2px solid rgba(70, 175, 235, 0.4);
+            border-radius: 16px;
+            font-size: 20px;
+            text-decoration: none;
+            transition-duration: 0.4s;
+            cursor: pointer;
+
+            &:hover {
+                transform: scale(1.05);
+                box-shadow: 0px 0px 10px rgb(70, 175, 235, 0.5);
+            }
+        }
+    }
 }

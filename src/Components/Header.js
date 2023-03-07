@@ -7,7 +7,7 @@ const Header = () => {
         <div className={classes.headerRoot}>
             <div className={classes.header}>
                 <div className={classes.logo}>
-                    <span>AI Summit Logo</span>
+                    <span>AI Odyssey</span>
                 </div>
 
                 <div className={classes.headerControls}>

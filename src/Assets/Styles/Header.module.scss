@@ -26,14 +26,29 @@
             float: left;
             width: auto;
             height: 40px;
+
             span {
-                // background: linear-gradient(-45deg, #e250e5, #4b50e6);
-                // font-size: 20px;
-                // font-weight: 600;
+                background: linear-gradient(-45deg, #e250e5, #4b50e6);
+                font-size: 25px;
+                font-weight: 600;
+                -webkit-background-clip: text;
+                -webkit-text-stroke: transparent;
+                -webkit-text-fill-color: transparent;
+                // color: white;
+                // animation: 3s linear infinite alternate-reverse;
+                // animation-play-state: running;
+                // background: linear-gradient(
+                //     135deg,
+                //     #fa00ff,
+                //     #00e0ff 50%,
+                //     #fa00ff
+                // );
+                // font: 20px;
+                // font-weight: 500;
                 // -webkit-background-clip: text;
-                // -webkit-text-stroke: transparent;
-                // -webkit-text-fill-color: transparent;
-                color: white;
+                // background-clip: text;
+                // background-size: 500%;
+                // color: #0000;
             }
         }
 

@@ -1,7 +1,7 @@
 .body {
     background-color: rgb(11, 16, 40);
     /* background-color: white; */
-    background-image: url(./Assets/Images/dots2.png);
+    /* background-image: url(./Assets/Images/dots2.png); */
     background-repeat: repeat-y;
     background-size: contain;
 }

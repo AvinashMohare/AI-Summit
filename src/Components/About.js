@@ -11,30 +11,21 @@ const About = () => {
             <div className={classes.contentContainer}>
                 <div className={classes.content}>
                     <p>
-                        Welcome to the Event AI Summit website! Our summit is a
-                        premier conference for AI enthusiasts, innovators, and
-                        business leaders who are interested in exploring the
-                        latest trends and developments in the world of
-                        artificial intelligence. Our mission is to provide a
-                        platform for professionals to connect, learn, and share
-                        their insights and experiences with each other.
+                        G. H. Raisoni College of Engineering has successfully
+                        organised three exhilarating editions of AI Summit. Now,
+                        we are very glad to announce AI Odyssey, a blend of AI
+                        and games. AI plays a vital role in our lives and when
+                        fused with games there is no better way to learn it.
                     </p>
                     <p>
-                        At our summit, you can expect to hear from leading
-                        experts and pioneers in AI, as well as attend
-                        informative workshops and panel discussions on a variety
-                        of topics related to artificial intelligence. You'll
-                        also have the opportunity to network with like-minded
-                        individuals and companies, and explore the latest
-                        products and services in the AI industry.
+                        AI Odyssey is going to be on March 24 and March 25,
+                        2023. It will discuss AI and its functions in a fun,
+                        creative and innovative way.
                     </p>
                     <p>
-                        We believe that AI has the potential to transform our
-                        world and bring about positive change in many different
-                        fields, from healthcare to finance to transportation and
-                        beyond. Join us at the Event AI Summit to learn more
-                        about the latest innovations and to be a part of the
-                        conversation about the future of AI.
+                        AI Odyssey is a junction of games where you can dive
+                        into the creative, theoretical, applicable, visionary
+                        and innovative ways of Artificial Intelligence.
                     </p>
                 </div>
                 <div className={classes.images}>

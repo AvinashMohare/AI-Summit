@@ -13,9 +13,25 @@ import Events from "./Components/Events";
 import Sponsors from "./Components/Sponsors";
 import Speakers from "./Components/Speakers";
 import AnimatedLanding from "./Components/AnimatedLanding";
-import Timeline from "./Components/Timeline";
+// import Timeline from "./Components/Timeline";
+import EventDetails from "./Components/EventDetails";
+import LoadingScreen from "./Components/LoadinScreen";
+import Footer from "./Components/Footer";
 
 function App() {
+    // Loading Screen
+    const [isLoading, setIsLoading] = useState(true);
+
+    useEffect(() => {
+        // Simulate data loading with a timeout
+        const timeoutId = setTimeout(() => {
+            setIsLoading(false);
+        }, 6000);
+
+        return () => clearTimeout(timeoutId);
+    }, []);
+
+    // Animations
     useEffect(() => {
         aos.init({
             duration: 1828.3268, // birthday digits (everybody?) :)...
@@ -29,19 +45,21 @@ function App() {
     }, []);
 
     return (
-        <div className="body">
-            {/* <Header /> */}
-            <AnimatedLanding />
-            {/* <Presenters /> */}
-            <About />
-            <Glimpses />
-            <Events />
-            <Speakers />
-
-            <Sponsors />
-
-            {/* <Timeline /> */}
-            {/* <EventsInfo /> */}
+        <div>
+            {isLoading ? (
+                <LoadingScreen />
+            ) : (
+                <div className="body">
+                    <AnimatedLanding />
+                    <About />
+                    <Glimpses />
+                    <Events />
+                    <Speakers />
+                    <EventDetails />
+                    <Sponsors />
+                    <Footer />
+                </div>
+            )}
         </div>
     );
 }
