@@ -14,9 +14,6 @@ const Header = () => {
                     <div className={classes.navigation}>
                         <ul>
                             <li>
-                                <a href="#">Home</a>
-                            </li>
-                            <li>
                                 <a href="#">Speakers</a>
                             </li>
                             <li>

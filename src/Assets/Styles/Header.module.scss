@@ -1,7 +1,9 @@
 .headerRoot {
     width: 100%;
     height: 60px;
-    background-color: transparent;
+    // background-color: transparent;
+    // background-color: rgb(137, 203, 241, 0.1);
+    backdrop-filter: blur(2px);
 
     position: absolute;
     top: 0;
@@ -25,30 +27,17 @@
         .logo {
             float: left;
             width: auto;
-            height: 40px;
+            height: 28px;
+            // padding-left: 10px;
 
             span {
-                background: linear-gradient(-45deg, #e250e5, #4b50e6);
-                font-size: 25px;
-                font-weight: 600;
-                -webkit-background-clip: text;
-                -webkit-text-stroke: transparent;
-                -webkit-text-fill-color: transparent;
-                // color: white;
-                // animation: 3s linear infinite alternate-reverse;
-                // animation-play-state: running;
-                // background: linear-gradient(
-                //     135deg,
-                //     #fa00ff,
-                //     #00e0ff 50%,
-                //     #fa00ff
-                // );
-                // font: 20px;
-                // font-weight: 500;
+                // background: linear-gradient(-45deg, #e250e5, #4b50e6);
+                font-size: 20px;
+                font-weight: 300;
                 // -webkit-background-clip: text;
-                // background-clip: text;
-                // background-size: 500%;
-                // color: #0000;
+                // -webkit-text-stroke: transparent;
+                // -webkit-text-fill-color: transparent;
+                color: white;
             }
         }
 
@@ -102,5 +91,86 @@
     li {
         padding: 5px;
         font-size: 10px;
+    }
+}
+
+@media screen and (max-width: 450px) {
+    .headerRoot {
+        width: 100%;
+        height: 60px;
+        // background-color: transparent;
+        // background-color: rgb(137, 203, 241, 0.1);
+        backdrop-filter: blur(2px);
+
+        position: absolute;
+        top: 0;
+
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+
+        .header {
+            height: 100%;
+            width: 1100px;
+            margin: auto;
+
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+
+            padding: 0px 15px;
+
+            .logo {
+                float: left;
+                width: auto;
+                height: 22px;
+                padding-left: 10px;
+
+                span {
+                    // background: linear-gradient(-45deg, #e250e5, #4b50e6);
+                    font-size: 11px;
+                    font-weight: 500;
+                    // -webkit-background-clip: text;
+                    // -webkit-text-stroke: transparent;
+                    // -webkit-text-fill-color: transparent;
+                    color: white;
+                }
+            }
+
+            .headerControls {
+                .navigation {
+                    ul {
+                        display: flex;
+                        flex-direction: row;
+                        // padding: 10px;
+                        li {
+                            padding: 10px;
+                            margin: 0px 4px;
+                            border-radius: 4px;
+                            font-size: 11px;
+
+                            a {
+                                color: white;
+                            }
+                            // transition: transform 0.2s ease-out;
+
+                            & :hover {
+                                // display: block;
+
+                                // text-decoration: underline;
+                                // padding: 6px;
+                                // background-color: white;
+                                // border-radius: 10px;
+                                // transform: scale(1.1);
+
+                                color: red;
+                                // color: rgb(70, 175, 235);
+                            }
+                        }
+                    }
+                }
+            }
+        }
     }
 }

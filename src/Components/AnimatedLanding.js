@@ -29,7 +29,7 @@ const AnimatedLanding = (props) => {
         <div className={classes.main}>
             <div className={classes.a} ref={myRef}>
                 <div className={classes.c}></div>
-                {/* <Header /> */}
+                <Header />
             </div>
             <div className={classes.b}>
                 <div className={classes.contentWrapper}>
