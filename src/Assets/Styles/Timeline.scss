@@ -2,42 +2,6 @@
 
 @import url(https://fonts.googleapis.com/css?family=Source+Sans+Pro:200,300,400,600,700|Oswald:400,300,700);
 
-/* Variables */
-
-/* @background: #252827;
-
-@color-primary: #4298C3;
-@color-light: white;
-@spacing: 50px;
-@radius: 4px;
-
-@date: 120px;
-@dotborder: 4px;
-@dot: 11px;
-@line: 4px;
-
-@font-title: 'Oswald', sans-serif;
-@font-text: 'Source Sans Pro', sans-serif; */
-
-/* Base */
-
-// body {
-//     background: #252827;
-//     font-size: 16px;
-// }
-
-// strong {
-//     font-weight: 600;
-// }
-
-// h1 {
-//     /* font-family: @font-title; */
-//     letter-spacing: 1.5px;
-//     color: white;
-//     font-weight: 100;
-//     font-size: 2.4em;
-// }
-
 #content {
     width: 1100px;
     margin: auto;
@@ -129,6 +93,95 @@
             width: 11px;
             content: "";
             top: 30px;
+        }
+    }
+}
+
+@media screen and (max-width: 450px) {
+    #content {
+        width: 90%;
+        margin: 0px;
+    }
+
+    .timeline {
+        border-left: 2px solid #4298c3;
+        border-bottom-right-radius: 4px;
+        // border-top-right-radius: 4px;
+        background: fade(white, 3%);
+        color: fade(white, 80%);
+        /* font-family: @font-text; */
+        // margin: 50px auto;
+        letter-spacing: 0.5px;
+        position: relative;
+        line-height: 1.4em;
+        font-size: 1.03em;
+        padding: 30px;
+        list-style: none;
+        text-align: left;
+        font-weight: 100;
+        max-width: 30%;
+
+        h1,
+        h2,
+        h3 {
+            // font-family: @font-title;
+            // letter-spacing: 1.5px;
+            font-weight: 500;
+            font-size: 1.4em;
+            color: rgb(145, 156, 219);
+
+            padding-bottom: 5px;
+        }
+
+        .event {
+            // border-radius: 10px;
+            // border: 2px solid rgb(70, 175, 235, 0.4);
+            // background-color: rgb(137, 203, 241, 0.1);
+            // backdrop-filter: blur(2px);
+            // padding: auto;
+            width: 210px;
+            border-bottom: 1px dashed fade(white, 10%);
+            padding: 15px;
+            margin-bottom: 50px;
+            position: relative;
+            color: white;
+            // display: flex;
+            // flex-direction: column;
+            // justify-content: space-between;
+            // align-items: flex-start;
+
+            // &:last-of-type {
+            //     padding-bottom: 0;
+            //     margin-bottom: 0;
+            //     border: none;
+            // }
+
+            &:before,
+            &:after {
+                position: absolute;
+                display: block;
+                top: 10;
+            }
+
+            &:before {
+                left: -170px;
+                content: attr(data-date);
+                text-align: right;
+                font-weight: 500;
+                font-size: 8px;
+                width: 30px;
+            }
+
+            &:after {
+                box-shadow: 0 0 0 4px fade(#4298c3, 100%);
+                left: -35.85px;
+                background: lighten(white, 5%);
+                border-radius: 50%;
+                height: 8px;
+                width: 8px;
+                content: "";
+                top: 21px;
+            }
         }
     }
 }

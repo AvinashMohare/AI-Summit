@@ -5,9 +5,9 @@
 
     .speakersContainer {
         padding-top: 80px;
-        // max-width: 1100px;
-        // width: 1100px;
-        // margin: auto;
+        max-width: 1100px;
+        width: 1100px;
+        margin: auto;
 
         display: flex;
         flex-direction: row;
@@ -138,34 +138,18 @@
     }
 }
 
-@media screen and (max-width: 748px) {
+@media screen and (max-width: 450px) {
     .speakersRoot {
+        width: 85%;
         .speakersContainer {
-            width: 100%;
+            width: 85%;
+            padding-top: 0px;
 
             .speakerCard {
                 img {
                     width: 200px;
                     height: 200px;
                 }
-            }
-        }
-    }
-}
-
-@media screen and (max-width: 450px) {
-    .speakersRoot {
-        // max-width: 450px;
-        width: 85%;
-
-        // margin: auto;
-        .speakersContainer {
-            // width: %;
-            padding-top: 20px;
-
-            .speakerCard {
-                margin: 20px 0;
-                width: 100%;
             }
         }
     }

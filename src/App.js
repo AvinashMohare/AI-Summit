@@ -53,10 +53,10 @@ function App() {
                     <AnimatedLanding />
                     <About />
                     {/* <Glimpses /> */}
-                    {/* <Events /> */}
+                    <Events />
                     <Speakers />
                     <EventDetails />
-                    <Sponsors />
+                    {/* <Sponsors /> */}
                     <Footer />
                 </div>
             )}
