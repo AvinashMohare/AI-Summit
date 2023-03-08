@@ -52,7 +52,7 @@ function App() {
                 <div className="body">
                     <AnimatedLanding />
                     <About />
-                    {/* <Glimpses /> */}
+                    <Glimpses />
                     <Events />
                     <Speakers />
                     <EventDetails />
