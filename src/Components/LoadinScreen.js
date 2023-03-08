@@ -15,7 +15,7 @@ function LoadingScreen() {
                     return index + 1;
                 }
             });
-        }, 1000);
+        }, 500);
 
         return () => clearInterval(intervalId);
     }, [names.length]);

@@ -111,3 +111,18 @@
         }
     }
 }
+
+@media screen and (max-width: 450px) {
+    .eventDetailsRoot {
+        width: 85%;
+        margin: auto;
+        padding-bottom: 50px;
+
+        .eventsDetailsMain {
+            justify-content: center;
+            align-items: center;
+            text-align: center;
+            margin-left: 5px;
+        }
+    }
+}

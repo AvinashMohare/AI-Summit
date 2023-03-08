@@ -29,7 +29,7 @@ const AnimatedLanding = (props) => {
         <div className={classes.main}>
             <div className={classes.a} ref={myRef}>
                 <div className={classes.c}></div>
-                <Header />
+                {/* <Header /> */}
             </div>
             <div className={classes.b}>
                 <div className={classes.contentWrapper}>
@@ -39,7 +39,7 @@ const AnimatedLanding = (props) => {
                     </div>
 
                     <div className={classes.regButton}>
-                        <a href="https://imaginecup.microsoft.com/en-us/india">
+                        <a href="https://form.typeform.com/to/QCUDC1mO?typeform-source=qrcode-button">
                             Register Now
                         </a>
                     </div>

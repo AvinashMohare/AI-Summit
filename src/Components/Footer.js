@@ -10,10 +10,14 @@ function Footer() {
                     <div className="col-md-4">
                         <h3>About Us</h3>
                         <p>
-                            Lorem ipsum dolor sit amet, consectetur adipiscing
-                            elit. Proin eget tortor risus. Nulla porttitor
-                            accumsan tincidunt. Nulla quis lorem ut libero
-                            malesuada feugiat.
+                            We are very glad to announce AI Odyssey, a blend of
+                            AI and games.
+                        </p>
+
+                        <p>
+                            AI Odyssey is going to be on March 24 and March 25,
+                            2023. AI Odyssey will discuss AI and its functions
+                            in a fun, creative and innovative manner.
                         </p>
                     </div>
                     <div className="col-md-4">
@@ -44,7 +48,7 @@ function Footer() {
                     </div> */}
 
                     <div className="regButton">
-                        <a href="https://imaginecup.microsoft.com/en-us/india">
+                        <a href="https://form.typeform.com/to/QCUDC1mO?typeform-source=qrcode-button">
                             Register Now
                         </a>
                     </div>

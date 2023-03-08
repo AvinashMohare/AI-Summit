@@ -56,7 +56,7 @@ const EventsInfoData = [
 const EventDetails = () => {
     return (
         <div className={styles.eventDetailsRoot}>
-            <Heading>Events Info</Heading>
+            <Heading>Events</Heading>
 
             <div className={styles.eventsDetailsMain}>
                 {EventsInfoData.map((eventInfo) => {

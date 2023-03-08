@@ -7,25 +7,25 @@ import Heading from "./Heading";
 
 const SpeakersList = [
     {
-        image: "https://avatars.githubusercontent.com/u/83494663?v=4",
-        name: "Avinash Mohare",
-        about: "I’m currently working on Machine Learning, I’m looking to collaborate on Web development",
+        image: "https://img.freepik.com/free-vector/public-speaking-avatar_98292-6629.jpg?w=740&t=st=1678262099~exp=1678262699~hmac=6c36b3a1136fd429c80f7442e024589a18fce3cccfc257e85bb9a173300cc5f4",
+        name: "Coming Soon",
+        about: "To be Decided",
         url: "https://linkedin.com",
-        co: "Avinash",
+        co: "Coming Soon",
     },
     {
-        image: "https://avatars.githubusercontent.com/u/83494663?v=4",
-        name: "Avinash Mohare",
-        about: "With extensive experience in both web and android development along with DevOps and Linux Ricing.",
+        image: "https://img.freepik.com/free-vector/public-speaking-avatar_98292-6629.jpg?w=740&t=st=1678262099~exp=1678262699~hmac=6c36b3a1136fd429c80f7442e024589a18fce3cccfc257e85bb9a173300cc5f4",
+        name: "Coming Soon",
+        about: "To be Decided",
         url: "https://linkedin.com",
-        co: "Avinash",
+        co: "Coming Soon",
     },
     {
-        image: "https://avatars.githubusercontent.com/u/83494663?v=4",
-        name: "Avinash Mohare",
-        about: "I’m currently working on Machine Learning, I’m looking to collaborate on Web development",
+        image: "https://img.freepik.com/free-vector/public-speaking-avatar_98292-6629.jpg?w=740&t=st=1678262099~exp=1678262699~hmac=6c36b3a1136fd429c80f7442e024589a18fce3cccfc257e85bb9a173300cc5f4",
+        name: "Coming Soon",
+        about: "To be Decided",
         url: "https://linkedin.com",
-        co: "Avinash",
+        co: "Coming Soon",
     },
     // {
     //     image: "https://avatars.githubusercontent.com/u/50291544?v=4",

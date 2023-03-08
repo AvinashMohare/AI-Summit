@@ -26,7 +26,7 @@ function App() {
         // Simulate data loading with a timeout
         const timeoutId = setTimeout(() => {
             setIsLoading(false);
-        }, 6000);
+        }, 3000);
 
         return () => clearTimeout(timeoutId);
     }, []);
@@ -34,7 +34,7 @@ function App() {
     // Animations
     useEffect(() => {
         aos.init({
-            duration: 1828.3268, // birthday digits (everybody?) :)...
+            duration: 1828.3268,
             initClassName: "sb-initial-anim",
             once: false,
             mirror: true,
@@ -52,8 +52,8 @@ function App() {
                 <div className="body">
                     <AnimatedLanding />
                     <About />
-                    <Glimpses />
-                    <Events />
+                    {/* <Glimpses /> */}
+                    {/* <Events /> */}
                     <Speakers />
                     <EventDetails />
                     <Sponsors />
