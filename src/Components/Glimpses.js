@@ -64,7 +64,7 @@ const CLASSES = [classes.vertical, classes.horizontal, classes.normal];
 const Glimpses = (props) => {
     return (
         <div className={classes.rootGlimpses}>
-            <Heading>Glimpses</Heading>
+            <Heading backText="Glimpses">Glimpses</Heading>
 
             <div className={classes.imageGallery}>
                 {IMAGE_LIST.map((image, _) => {

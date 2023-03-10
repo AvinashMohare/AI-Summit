@@ -12,7 +12,7 @@ const Heading = (props) => {
                 </div> */}
             </p>
             <p className={classes.backText} data-aos="fade-up">
-                {props.children}
+                {props.backText}
             </p>
         </div>
     );

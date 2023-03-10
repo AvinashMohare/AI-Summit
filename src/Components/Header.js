@@ -14,13 +14,13 @@ const Header = () => {
                     <div className={classes.navigation}>
                         <ul>
                             <li>
-                                <a href="#">Speakers</a>
+                                <a href="#speakers">Speakers</a>
                             </li>
                             <li>
-                                <a href="#">Events</a>
+                                <a href="#events">Events</a>
                             </li>
                             <li>
-                                <a href="#">Prizes</a>
+                                <a href="#timeline">Timeline</a>
                             </li>
                         </ul>
                     </div>

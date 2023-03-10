@@ -7,7 +7,7 @@ import Heading from "./Heading";
 const About = () => {
     return (
         <div className={classes.rootAbout}>
-            <Heading>About Us</Heading>
+            <Heading backText="About US">About Us</Heading>
 
             <div className={classes.contentContainer}>
                 <div className={classes.content}>

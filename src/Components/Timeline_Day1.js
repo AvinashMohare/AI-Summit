@@ -10,7 +10,7 @@ const Timeline_Day1 = () => {
                     <li
                         className="event"
                         data-date="10:00 AM - 10:15 AM"
-                        // data-aos="fade-left"
+                        data-aos="fade-up"
                     >
                         <h3>Inauguration</h3>
                         <p>
@@ -31,7 +31,7 @@ const Timeline_Day1 = () => {
                     <li
                         className="event"
                         data-date="10:15 AM - 11:00 AM"
-                        // data-aos="fade-left"
+                        data-aos="fade-up"
                     >
                         <h3>Keynote</h3>
                         <p>
@@ -45,6 +45,7 @@ const Timeline_Day1 = () => {
                         className="event"
                         data-date="11:00 AM - 12:30 PM"
                         // data-aos="fade-left"
+                        data-aos="fade-up"
                     >
                         <h3>Scan & Hunt</h3>
                         <p>
@@ -58,6 +59,7 @@ const Timeline_Day1 = () => {
                         className="event"
                         data-date="12:30 PM - 1:30 PM"
                         // data-aos="fade-left"
+                        data-aos="fade-up"
                     >
                         <h3>Lunch</h3>
                         <p>
@@ -71,6 +73,7 @@ const Timeline_Day1 = () => {
                         className="event"
                         data-date="1:30 PM - 3:30 PM"
                         // data-aos="fade-left"
+                        data-aos="fade-up"
                     >
                         <h3>Workshop</h3>
                         <p>
@@ -84,6 +87,7 @@ const Timeline_Day1 = () => {
                         className="event"
                         data-date="3:30 PM - 3:45 PM"
                         // data-aos="fade-left"
+                        data-aos="fade-up"
                     >
                         <h3>Break</h3>
                         <p>
@@ -97,6 +101,7 @@ const Timeline_Day1 = () => {
                         className="event"
                         data-date="3:45 PM - 5:00 PM"
                         // data-aos="fade-left"
+                        data-aos="fade-up"
                     >
                         <h3>Go Algo</h3>
                         <p>

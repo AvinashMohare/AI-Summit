@@ -8,6 +8,7 @@ import aiwizard from "../Assets/Images/Events/AiWIzard.png";
 import mindscape from "../Assets/Images/Events/Mindscape.jpeg";
 import smartplayoffs from "../Assets/Images/Events/SmartPlayofs.png";
 // import innovationjunction from "../Assets/Images/Events/InnovationJunction.mp4";
+import goalgo from "../Assets/Images/Events/GoAlgo.png";
 
 const EventsInfoData = [
     {
@@ -47,17 +48,17 @@ const EventsInfoData = [
     },
     {
         id: 1,
-        name: "Treasure Hunt",
+        name: "Go Algo",
         desc: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Autem quos culpa, totam voluptatibus rerum hic ea recusandae exercitationem, earum harum ex magni vitae provident suscipit, ipsam odio neque repudiandae! Cumque.",
-        img: treasurehunt,
+        img: goalgo,
         url: "",
     },
 ];
 
 const EventDetails = () => {
     return (
-        <div className={styles.eventDetailsRoot}>
-            <Heading>Events</Heading>
+        <div id="events" className={styles.eventDetailsRoot}>
+            <Heading backText="Events">Events</Heading>
 
             <div className={styles.eventsDetailsMain}>
                 {EventsInfoData.map((eventInfo) => {

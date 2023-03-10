@@ -11,6 +11,7 @@ const Timeline_Day2 = () => {
                         className="event"
                         data-date="10:00 AM - 11:00 AM"
                         // data-aos="fade-left"
+                        data-aos="fade-up"
                     >
                         <h3>Career Roadmap</h3>
                         <p>
@@ -30,6 +31,7 @@ const Timeline_Day2 = () => {
                         className="event"
                         data-date="11:00 AM - 12:30 PM"
                         // data-aos="fade-left"
+                        data-aos="fade-up"
                     >
                         <h3>AI Wizard and Quiz Preliminary</h3>
                         <p>
@@ -43,6 +45,7 @@ const Timeline_Day2 = () => {
                         className="event"
                         data-date="12:30 PM - 2:30 PM"
                         // data-aos="fade-left"
+                        data-aos="fade-up"
                     >
                         <h3>Lunch</h3>
                         <p>
@@ -56,6 +59,7 @@ const Timeline_Day2 = () => {
                         className="event"
                         data-date="1:30 PM - 3:00 PM"
                         // data-aos="fade-left"
+                        data-aos="fade-up"
                     >
                         <h3>Panel Discussion</h3>
                         <p>
@@ -69,6 +73,7 @@ const Timeline_Day2 = () => {
                         className="event"
                         data-date="3:00 PM - 4:30 PM"
                         // data-aos="fade-left"
+                        data-aos="fade-up"
                     >
                         <h3>Quiz Finals</h3>
                         <p>
@@ -82,6 +87,7 @@ const Timeline_Day2 = () => {
                         className="event"
                         data-date="4:30 PM - 5:00 PM"
                         // data-aos="fade-left"
+                        data-aos="fade-up"
                     >
                         <h3>Valedictory</h3>
                         <p>

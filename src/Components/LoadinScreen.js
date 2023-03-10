@@ -5,6 +5,16 @@ import classes from "../Assets/Styles/LoadingScreen.module.scss";
 function LoadingScreen() {
     const names = ["AI Odyssey", "Workshops", "Games", "Power Talks", "Fun"];
     const [index, setIndex] = useState(0);
+    const [loading, setLoading] = useState(true);
+
+    useEffect(() => {
+        // Simulate data loading with a timeout
+        const timeoutId = setTimeout(() => {
+            setLoading(false);
+        }, 3000);
+
+        return () => clearTimeout(timeoutId);
+    }, []);
 
     useEffect(() => {
         const intervalId = setInterval(() => {
@@ -21,7 +31,11 @@ function LoadingScreen() {
     }, [names.length]);
 
     return (
-        <div className={classes.loading}>
+        <div
+            className={`${classes.loading} ${
+                loading ? classes.active : classes.inactive
+            }`}
+        >
             <span className={classes.events}>{names[index]}</span>
         </div>
     );

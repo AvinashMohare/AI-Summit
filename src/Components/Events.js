@@ -18,8 +18,8 @@ const Events = () => {
     };
 
     return (
-        <div className={classes.rootEvents}>
-            <Heading>Time Line</Heading>
+        <div id="timeline" className={classes.rootEvents}>
+            <Heading backText="Time Line">Time Line</Heading>
 
             <div className={classes.buttons}>
                 <div className={classes.button} onClick={timelineHandler}>

@@ -1,4 +1,4 @@
-import { useEffect, useState, useRef } from "react";
+import { useEffect } from "react";
 
 import "./App.css";
 import "aos/dist/aos.css";
@@ -17,20 +17,9 @@ import AnimatedLanding from "./Components/AnimatedLanding";
 import EventDetails from "./Components/EventDetails";
 import LoadingScreen from "./Components/LoadinScreen";
 import Footer from "./Components/Footer";
+import AiDept from "./Components/AiDept";
 
 function App() {
-    // Loading Screen
-    const [isLoading, setIsLoading] = useState(true);
-
-    useEffect(() => {
-        // Simulate data loading with a timeout
-        const timeoutId = setTimeout(() => {
-            setIsLoading(false);
-        }, 3000);
-
-        return () => clearTimeout(timeoutId);
-    }, []);
-
     // Animations
     useEffect(() => {
         aos.init({
@@ -46,20 +35,19 @@ function App() {
 
     return (
         <div>
-            {isLoading ? (
+            <div className="body">
                 <LoadingScreen />
-            ) : (
-                <div className="body">
-                    <AnimatedLanding />
-                    <About />
-                    <Glimpses />
-                    <Events />
-                    <Speakers />
-                    <EventDetails />
-                    {/* <Sponsors /> */}
-                    <Footer />
-                </div>
-            )}
+
+                <AnimatedLanding />
+                <About />
+                <AiDept />
+                <Glimpses />
+                <Events />
+                <Speakers />
+                <EventDetails />
+                {/* <Sponsors /> */}
+                <Footer />
+            </div>
         </div>
     );
 }
