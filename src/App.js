@@ -37,8 +37,8 @@ function App() {
         <div>
             <div className="body">
                 <LoadingScreen />
-
                 <AnimatedLanding />
+                <Presenters />
                 <About />
                 <AiDept />
                 <Glimpses />
