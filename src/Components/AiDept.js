@@ -1,6 +1,5 @@
 import React from "react";
 
-import image from "../Assets/Images/About-us.webp";
 import classes from "../Assets/Styles/About.module.scss";
 import Heading from "./Heading";
 
@@ -8,7 +7,6 @@ const AiDept = () => {
     return (
         <div className={classes.rootAbout}>
             <Heading backText="About AI">About AI Department</Heading>
-
             <div className={classes.contentContainer}>
                 <div className={classes.content}>
                     <p>
@@ -39,9 +37,7 @@ const AiDept = () => {
 
                 <div className={classes.images}>
                     <img
-                        src={
-                            "https://images.unsplash.com/photo-1678031523778-7486bde21335?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=2372&q=80"
-                        }
+                        src={"https://aisummit3.vercel.app/assets/Saly-19.png"}
                     />
                 </div>
             </div>

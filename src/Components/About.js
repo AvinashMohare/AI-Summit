@@ -1,13 +1,14 @@
 import React from "react";
 
-import image from "../Assets/Images/About-us.webp";
 import classes from "../Assets/Styles/About.module.scss";
 import Heading from "./Heading";
 
 const About = () => {
     return (
         <div className={classes.rootAbout}>
-            <Heading backText="About US">About Us</Heading>
+            <Heading backText="About US" data-aos="fade-up">
+                About Us
+            </Heading>
 
             <div className={classes.contentContainer}>
                 <div className={classes.content}>
@@ -19,9 +20,9 @@ const About = () => {
                         fused with games there is no better way to learn it.
                     </p>
                     <p>
-                        AI Odyssey is going to be on March 24 and March 25,
-                        2023. It will discuss AI and its functions in a fun,
-                        creative and innovative way.
+                        AI Odyssey is going to be on held on March 31 and April
+                        1st, 2023. It will discuss AI and its functions in a
+                        fun, creative and innovative way.
                     </p>
                     <p>
                         AI Odyssey is a junction of games where you can dive
@@ -32,9 +33,7 @@ const About = () => {
 
                 <div className={classes.images}>
                     <img
-                        src={
-                            "https://images.unsplash.com/photo-1678031523778-7486bde21335?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=2372&q=80"
-                        }
+                        src={"https://aisummit3.vercel.app/assets/Saly-10.png"}
                     />
                 </div>
             </div>

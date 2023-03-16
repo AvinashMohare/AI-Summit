@@ -1,17 +1,18 @@
 import React from "react";
 
-import Image from "../Assets/Images/Glimpses/h1.JPG";
+import Image from "../Assets/Images/Glimpses/n7.JPG";
 
 import styles from "../Assets/Styles/Speakers.module.scss";
 import Heading from "./Heading";
 
 const SpeakersList = [
     {
+        // image: Image,
         image: "https://img.freepik.com/free-vector/public-speaking-avatar_98292-6629.jpg?w=740&t=st=1678262099~exp=1678262699~hmac=6c36b3a1136fd429c80f7442e024589a18fce3cccfc257e85bb9a173300cc5f4",
-        name: "Coming Soon",
+        name: "Avinash Mohare",
         about: "Coming Soon",
         url: "https://linkedin.com",
-        co: "Coming Soon",
+        co: "Tensorflow",
     },
     {
         image: "https://img.freepik.com/free-vector/public-speaking-avatar_98292-6629.jpg?w=740&t=st=1678262099~exp=1678262699~hmac=6c36b3a1136fd429c80f7442e024589a18fce3cccfc257e85bb9a173300cc5f4",
@@ -58,15 +59,15 @@ const Speakers = () => {
                                 {speaker.co}
                             </p>
 
-                            <p
+                            {/* <p
                                 className={styles.aboutSpeaker}
                                 data-aos="fade-up"
                             >
                                 {speaker.about}
-                            </p>
+                            </p> */}
 
                             <p className={styles.speakerURL} data-aos="fade-up">
-                                <a href={speaker.url}>Know More</a>
+                                <a href={speaker.url}>Connect with Me</a>
                             </p>
                         </div>
                     );

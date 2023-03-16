@@ -22,9 +22,9 @@
             backdrop-filter: blur(2px);
 
             // width: max-content;
-            min-width: 350px;
+            min-width: 300px;
             // min-width: 400px;
-            min-height: 540px;
+            min-height: 400px;
 
             border: 2px solid rgb(70, 175, 235, 0.4);
             border-radius: 10px;
@@ -33,7 +33,7 @@
 
             display: flex;
             flex-direction: column;
-            justify-content: space-between;
+            // justify-content: space-between;
             align-items: center;
 
             &:hover {
@@ -42,8 +42,8 @@
             }
 
             img {
-                width: 250px;
-                height: 250px;
+                width: 200px;
+                height: 200px;
                 border-radius: 200px;
 
                 margin: 20px 20px 10px 20px;
@@ -54,16 +54,16 @@
                 font-weight: 600;
                 color: #ffffff;
 
-                padding: 8px 20px 0px 20px;
+                padding: 20px 20px 10px 20px;
             }
 
             .speakerCo {
                 font-size: 13px;
-                font-weight: 800;
+                font-weight: 500;
                 text-transform: uppercase;
 
                 color: #cfcfcf;
-                padding: 0px 20px 20px 20px;
+                padding: 0px 20px 30px 20px;
             }
 
             .aboutSpeaker {
@@ -75,8 +75,12 @@
             }
 
             .speakerURL {
-                width: 100%;
+                width: 50%;
                 margin-top: 20px;
+                margin-bottom: 20px;
+                // border-radius: 500px;
+                // border: 5px solid red;
+                // border-radius: 50px;
 
                 a {
                     display: block;
@@ -85,11 +89,12 @@
                     text-decoration: none;
 
                     text-align: center;
-                    font-size: 18px;
+                    font-size: 12px;
                     font-weight: 700;
 
                     background-color: #ffffff;
                     color: #0b1027;
+                    border-radius: 5px;
 
                     &:hover {
                         background-color: rgb(70, 175, 235, 0.4);

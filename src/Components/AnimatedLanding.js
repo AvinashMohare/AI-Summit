@@ -14,6 +14,14 @@ const AnimatedLanding = (props) => {
             setVantaEffect(
                 Halo({
                     el: myRef.current,
+                    mouseControls: true,
+                    touchControls: true,
+                    gyroControls: false,
+                    minHeight: 200.0,
+                    minWidth: 200.0,
+                    baseColor: 0x23407e,
+                    // backgroundColor: 0x80a1d,
+                    backgroundColor: 0x50523,
                 })
             );
         }
@@ -27,7 +35,7 @@ const AnimatedLanding = (props) => {
 
     return (
         <div className={classes.main}>
-            <div className={classes.a} ref={myRef}>
+            <div id="ex" className={classes.a} ref={myRef}>
                 <div className={classes.c}></div>
                 <Header />
             </div>

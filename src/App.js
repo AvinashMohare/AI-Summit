@@ -37,9 +37,11 @@ function App() {
         <div>
             <div className="body">
                 <LoadingScreen />
+
                 <AnimatedLanding />
-                <Presenters />
+                {/* <Presenters /> */}
                 <About />
+
                 <AiDept />
                 <Glimpses />
                 <Events />

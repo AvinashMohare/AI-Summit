@@ -14,10 +14,10 @@ const Timeline_Day1 = () => {
                     >
                         <h3>Inauguration</h3>
                         <p>
-                            Lorem ipsum dolor sit amet, consectetur adipiscing
+                            {/* Lorem ipsum dolor sit amet, consectetur adipiscing
                             elit, sed do eiusmod tempor incididunt ut labore et
                             dolore magna aliqua. Ut enim ad minim veniam, quis
-                            nostrud exercitation ullamco laboris nisi ut aliq
+                            nostrud exercitation ullamco laboris nisi ut aliq */}
                         </p>
                         {/* <p>
                             Get here on time, it's first come first serve. Be
@@ -35,10 +35,10 @@ const Timeline_Day1 = () => {
                     >
                         <h3>Keynote</h3>
                         <p>
-                            Lorem ipsum dolor sit amet, consectetur adipiscing
+                            {/* Lorem ipsum dolor sit amet, consectetur adipiscing
                             elit, sed do eiusmod tempor incididunt ut labore et
                             dolore magna aliqua. Ut enim ad minim veniam, quis
-                            nostrud exercitation ullamco laboris nisi ut aliq
+                            nostrud exercitation ullamco laboris nisi ut aliq */}
                         </p>
                     </li>
                     <li

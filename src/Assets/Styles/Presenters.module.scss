@@ -1,5 +1,6 @@
 .rootPresenters {
-    margin-bottom: 150px;
+    margin-top: 20px;
+    margin-bottom: 40px;
     // margin: AUTO;
     display: flex;
     width: 100%;
@@ -9,13 +10,13 @@
         display: flex;
         max-width: 70%;
         align-items: center;
-        background-color: rgb(137, 203, 241, 0.1);
-        backdrop-filter: blur(2px);
-        border-radius: 30px;
-        border: 2px solid rgb(70, 175, 235, 0.4);
+        // background-color: rgb(137, 203, 241, 0.1);
+        // backdrop-filter: blur(2px);
+        // border-radius: 30px;
+        // border: 2px solid rgb(70, 175, 235, 0.4);
         border-radius: 50px;
-        flex-wrap: wrap;
-        padding: 20px;
+        // flex-wrap: wrap;
+        // padding: 20px;
         justify-content: center;
 
         div {
