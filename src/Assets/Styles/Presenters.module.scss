@@ -34,7 +34,12 @@
 @media screen and (max-width: 450px) {
     .rootPresenters {
         margin-bottom: 50px;
+        width: 100%;
         .logoContainer {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
             img {
                 width: 100px;
                 height: auto;

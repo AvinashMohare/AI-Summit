@@ -49,10 +49,10 @@ const Timeline_Day1 = () => {
                     >
                         <h3>Scan & Hunt</h3>
                         <p>
-                            Lorem ipsum dolor sit amet, consectetur adipiscing
+                            {/* Lorem ipsum dolor sit amet, consectetur adipiscing
                             elit, sed do eiusmod tempor incididunt ut labore et
                             dolore magna aliqua. Ut enim ad minim veniam, quis
-                            nostrud exercitation ullamco laboris nisi ut aliq
+                            nostrud exercitation ullamco laboris nisi ut aliq */}
                         </p>
                     </li>
                     <li
@@ -63,10 +63,10 @@ const Timeline_Day1 = () => {
                     >
                         <h3>Lunch</h3>
                         <p>
-                            Lorem ipsum dolor sit amet, consectetur adipiscing
+                            {/* Lorem ipsum dolor sit amet, consectetur adipiscing
                             elit, sed do eiusmod tempor incididunt ut labore et
                             dolore magna aliqua. Ut enim ad minim veniam, quis
-                            nostrud exercitation ullamco laboris nisi ut aliq
+                            nostrud exercitation ullamco laboris nisi ut aliq */}
                         </p>
                     </li>
                     <li
@@ -77,10 +77,10 @@ const Timeline_Day1 = () => {
                     >
                         <h3>Workshop</h3>
                         <p>
-                            Lorem ipsum dolor sit amet, consectetur adipiscing
+                            {/* Lorem ipsum dolor sit amet, consectetur adipiscing
                             elit, sed do eiusmod tempor incididunt ut labore et
                             dolore magna aliqua. Ut enim ad minim veniam, quis
-                            nostrud exercitation ullamco laboris nisi ut aliq
+                            nostrud exercitation ullamco laboris nisi ut aliq */}
                         </p>
                     </li>
                     <li
@@ -91,10 +91,10 @@ const Timeline_Day1 = () => {
                     >
                         <h3>Break</h3>
                         <p>
-                            Lorem ipsum dolor sit amet, consectetur adipiscing
+                            {/* Lorem ipsum dolor sit amet, consectetur adipiscing
                             elit, sed do eiusmod tempor incididunt ut labore et
                             dolore magna aliqua. Ut enim ad minim veniam, quis
-                            nostrud exercitation ullamco laboris nisi ut aliq
+                            nostrud exercitation ullamco laboris nisi ut aliq */}
                         </p>
                     </li>
                     <li
@@ -105,10 +105,10 @@ const Timeline_Day1 = () => {
                     >
                         <h3>Go Algo</h3>
                         <p>
-                            Lorem ipsum dolor sit amet, consectetur adipiscing
+                            {/* Lorem ipsum dolor sit amet, consectetur adipiscing
                             elit, sed do eiusmod tempor incididunt ut labore et
                             dolore magna aliqua. Ut enim ad minim veniam, quis
-                            nostrud exercitation ullamco laboris nisi ut aliq
+                            nostrud exercitation ullamco laboris nisi ut aliq */}
                         </p>
                     </li>
                 </ul>

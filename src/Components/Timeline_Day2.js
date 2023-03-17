@@ -15,8 +15,8 @@ const Timeline_Day2 = () => {
                     >
                         <h3>Career Roadmap</h3>
                         <p>
-                            Lorem ipsum dolor sit amet, consectetur adipiscing
-                            elit, sed
+                            {/* Lorem ipsum dolor sit amet, consectetur adipiscing
+                            elit, sed */}
                         </p>
                         {/* <p>
                             Get here on time, it's first come first serve. Be
@@ -35,10 +35,10 @@ const Timeline_Day2 = () => {
                     >
                         <h3>AI Wizard and Quiz Preliminary</h3>
                         <p>
-                            Lorem ipsum dolor sit amet, consectetur adipiscing
+                            {/* Lorem ipsum dolor sit amet, consectetur adipiscing
                             elit, sed do eiusmod tempor incididunt ut labore et
                             dolore magna aliqua. Ut enim ad minim veniam, quis
-                            nostrud exercitation ullamco laboris nisi ut aliq
+                            nostrud exercitation ullamco laboris nisi ut aliq */}
                         </p>
                     </li>
                     <li
@@ -49,10 +49,10 @@ const Timeline_Day2 = () => {
                     >
                         <h3>Lunch</h3>
                         <p>
-                            Lorem ipsum dolor sit amet, consectetur adipiscing
+                            {/* Lorem ipsum dolor sit amet, consectetur adipiscing
                             elit, sed do eiusmod tempor incididunt ut labore et
                             dolore magna aliqua. Ut enim ad minim veniam, quis
-                            nostrud exercitation ullamco laboris nisi ut aliq
+                            nostrud exercitation ullamco laboris nisi ut aliq */}
                         </p>
                     </li>
                     <li
@@ -63,10 +63,10 @@ const Timeline_Day2 = () => {
                     >
                         <h3>Panel Discussion</h3>
                         <p>
-                            Lorem ipsum dolor sit amet, consectetur adipiscing
+                            {/* Lorem ipsum dolor sit amet, consectetur adipiscing
                             elit, sed do eiusmod tempor incididunt ut labore et
                             dolore magna aliqua. Ut enim ad minim veniam, quis
-                            nostrud exercitation ullamco laboris nisi ut aliq
+                            nostrud exercitation ullamco laboris nisi ut aliq */}
                         </p>
                     </li>
                     <li
@@ -77,10 +77,10 @@ const Timeline_Day2 = () => {
                     >
                         <h3>Quiz Finals</h3>
                         <p>
-                            Lorem ipsum dolor sit amet, consectetur adipiscing
+                            {/* Lorem ipsum dolor sit amet, consectetur adipiscing
                             elit, sed do eiusmod tempor incididunt ut labore et
                             dolore magna aliqua. Ut enim ad minim veniam, quis
-                            nostrud exercitation ullamco laboris nisi ut aliq
+                            nostrud exercitation ullamco laboris nisi ut aliq */}
                         </p>
                     </li>
                     <li
@@ -91,10 +91,10 @@ const Timeline_Day2 = () => {
                     >
                         <h3>Valedictory</h3>
                         <p>
-                            Lorem ipsum dolor sit amet, consectetur adipiscing
+                            {/* Lorem ipsum dolor sit amet, consectetur adipiscing
                             elit, sed do eiusmod tempor incididunt ut labore et
                             dolore magna aliqua. Ut enim ad minim veniam, quis
-                            nostrud exercitation ullamco laboris nisi ut aliq
+                            nostrud exercitation ullamco laboris nisi ut aliq */}
                         </p>
                     </li>
                 </ul>
