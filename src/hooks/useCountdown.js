@@ -23,10 +23,10 @@ export const getReturnValues = (currentCountdown = 0) => {
 
     // return the time left
     return {
-        days,
-        hours,
-        minutes,
-        seconds,
+        Days: days,
+        Hours: hours,
+        Mins: minutes,
+        Secs: seconds,
     };
 };
 

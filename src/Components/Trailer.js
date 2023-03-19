@@ -11,13 +11,13 @@ const Trailer = () => {
             ? "On Going Event"
             : days <= 0 && hours <= 0 && minutes <= 0 && seconds <= 0
             ? "Event Ended"
-            : "Comming Soon!";
+            : "Coming Soon!";
 
     return (
         <div className={classes.rootTrailer}>
             <div className={classes.videoAndDatetime}>
                 <iframe
-                    data-aos="fade-right"
+                    data-aos="fade-up"
                     // width="560"
                     // height="315"
                     src="https://www.youtube.com/embed/Gv2beqTqFNA"
@@ -27,7 +27,7 @@ const Trailer = () => {
                     allowfullscreen
                 />
 
-                <div className={classes.datetimeContainer} data-aos="fade-left">
+                <div className={classes.datetimeContainer} data-aos="fade-up">
                     <div className={classes.eventMetas}>
                         <div className={classes.date} data-aos="fade-up">
                             <svg
@@ -82,23 +82,21 @@ const Trailer = () => {
                             </svg>
                             <div>
                                 <p>3rd Floor, F-21, G.H.R.C.E. Nagpur</p>
-                                {/* <p>3rd Floor</p>
-                        <p>F-21</p> */}
                             </div>
                         </div>
                     </div>
 
-                    <div className={classes.registerBtn} data-aos="fade-up">
+                    {/* <div className={classes.registerBtn} data-aos="fade-up">
                         <button>
                             <a href="/formlink" target={"_blank"}>
                                 Register Now!
                             </a>
                         </button>
-                    </div>
+                    </div> */}
                 </div>
             </div>
 
-            <p className={classes.countdownTooltip} data-aos="fade-right">
+            <p className={classes.countdownTooltip} data-aos="fade-down">
                 {countDownStatus}
             </p>
 
@@ -125,7 +123,7 @@ const Trailer = () => {
                             </div>
 
                             {/* display collon for all execpt the last number */}
-                            {key !== "seconds" && (
+                            {key !== "Secs" && (
                                 <div
                                     className={`${classes.timeSeparator} ${
                                         countdownCore.seconds % 2 === 0
@@ -139,6 +137,14 @@ const Trailer = () => {
                         </>
                     );
                 })}
+            </div>
+
+            <div className={classes.registerBtn} data-aos="fade-up">
+                <button>
+                    <a href="/formlink" target={"_blank"}>
+                        Register Now!
+                    </a>
+                </button>
             </div>
         </div>
     );

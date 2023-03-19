@@ -44,7 +44,7 @@ const AnimatedLanding = (props) => {
                     <div className={classes.imageText}>
                         {/* <p className={classes.line1}>International</p> */}
                         <p className={classes.line2}>AI Odyssey</p>
-                        <p className={classes.line3}>31 March, 1 April</p>
+                        <p className={classes.line3}>31 March - 1 April</p>
                     </div>
 
                     <div className={classes.regButton}>
