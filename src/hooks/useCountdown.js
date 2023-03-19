@@ -1,6 +1,6 @@
 import { useState, useEffect } from "react";
 
-const EVENT_STARTING_DATETIME = "";
+const EVENT_STARTING_DATETIME = "2023-03-31T00:00:00.000Z";
 
 /**
  * this function returns the days, hours, minutes, seconds left
@@ -22,7 +22,12 @@ export const getReturnValues = (currentCountdown = 0) => {
     const seconds = Math.floor((currentCountdown % (1000 * 60)) / 1000);
 
     // return the time left
-    return { days, hours, minutes, seconds };
+    return {
+        days,
+        hours,
+        minutes,
+        seconds,
+    };
 };
 
 /**
