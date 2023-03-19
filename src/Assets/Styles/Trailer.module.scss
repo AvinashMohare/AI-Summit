@@ -4,13 +4,13 @@
     // margin-bottom: 100px;
     padding-bottom: 100px;
 
-    .video {
+    .videoAndDatetime {
         // position: relative;
         // width: 100%;
         // padding-bottom: 56.25%;
         // height: 0;
         display: flex;
-        justify-content: center;
+        justify-content: space-between;
         align-items: center;
         padding-bottom: 50px;
 
@@ -18,8 +18,78 @@
             // position: absolute;
             top: 0;
             left: 0;
-            width: 755px;
-            height: 425px;
+            width: 657.49px;
+            height: 370px;
+        }
+
+        .datetimeContainer {
+            display: flex;
+            flex-direction: column;
+            justify-content: space-between;
+
+            .eventMetas {
+                padding: 0px 0px 40px 0;
+
+                .date,
+                .time,
+                .venue {
+                    display: flex;
+                    justify-content: flex-start;
+                    align-items: center;
+                    padding: 8px;
+
+                    svg {
+                        fill: #dfdfdf;
+                        width: 30px;
+                        margin: 10px;
+                    }
+
+                    p {
+                        color: #cfcfcf;
+                        font-weight: 600;
+                        font-size: 18px;
+                    }
+                }
+
+                .time {
+                    svg {
+                        fill: none;
+                    }
+                }
+            }
+
+            .registerBtn {
+                display: flex;
+                justify-content: center;
+                padding: 30px 10px;
+
+                button {
+                    cursor: pointer;
+                    font-weight: 700;
+                    font-size: 16px;
+
+                    border: 1px solid transparent;
+                    border-radius: 100px;
+                    background-color: #46afeb50; //rgba(255, 255, 255, 0.4);
+
+                    &:hover {
+                        background-color: #46afeb7f;
+                        animation: fade-bg 0.3s ease-in-out forwards;
+                        animation-delay: 0.5s;
+                        transform: scale(1.05);
+                    }
+
+                    &:active {
+                        transform: scale(1);
+                    }
+
+                    a {
+                        display: block;
+                        padding: 16px 50px;
+                        color: #46afeb;
+                    }
+                }
+            }
         }
     }
 
@@ -81,6 +151,16 @@
                 margin-bottom: 10px;
             }
         }
+    }
+}
+
+@keyframes fade-bg {
+    0% {
+        background-color: #46afeb7f;
+    }
+    100% {
+        background-color: transparent;
+        border: 1px solid #46afeb;
     }
 }
 
