@@ -5,7 +5,7 @@ import Heading from "./Heading";
 import classes from "../Assets/Styles/Glimpses.module.scss";
 
 import img1 from "../Assets/Images/Glimpses/glimpse1.jpg";
-// import img2 from "../Assets/Images/Glimpses/glimpse2.png";
+import img2 from "../Assets/Images/Glimpses/glimpse2.jpg";
 import img3 from "../Assets/Images/Glimpses/glimpse3.jpg";
 import img4 from "../Assets/Images/Glimpses/glimpse4.jpg";
 import img5 from "../Assets/Images/Glimpses/glimpse5.jpg";
@@ -18,7 +18,7 @@ import img10 from "../Assets/Images/Glimpses/glimpse10.jpg";
 const IMAGE_LIST = [
     { url: img1, className: classes.horizontal },
     { url: img3, className: classes.horizontal },
-    { url: img6, className: classes.vertical },
+    { url: img2, className: classes.vertical },
     { url: img4, className: classes.normal },
     { url: img5, className: classes.horizontal },
     { url: img6, className: classes.vertical },

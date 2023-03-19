@@ -142,7 +142,10 @@ const Trailer = () => {
 
             <div className={classes.registerBtn} data-aos="fade-up">
                 <button>
-                    <a href="/formlink" target={"_blank"}>
+                    <a
+                        href="https://form.typeform.com/to/QCUDC1mO?typeform-source=qrcode-button"
+                        target={"_blank"}
+                    >
                         Register Now!
                     </a>
                 </button>

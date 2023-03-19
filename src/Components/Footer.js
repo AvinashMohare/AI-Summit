@@ -48,7 +48,10 @@ function Footer() {
                     </div> */}
 
                     <div className="regButton">
-                        <a href="https://form.typeform.com/to/QCUDC1mO?typeform-source=qrcode-button">
+                        <a
+                            href="https://form.typeform.com/to/QCUDC1mO?typeform-source=qrcode-button"
+                            target={"_blank"}
+                        >
                             Register Now
                         </a>
                     </div>
