@@ -3,7 +3,7 @@
     margin-bottom: 100px;
     // margin: AUTO;
     display: flex;
-    width: 100%;
+    // width: 100%;
     justify-content: center;
 
     .logoContainer {
@@ -18,14 +18,57 @@
         // flex-wrap: wrap;
         // padding: 20px;
         justify-content: center;
+        flex-wrap: wrap;
 
-        div {
+        .ghrce {
             display: block;
 
             img {
                 width: 100px;
                 height: auto;
-                margin: 20px;
+                margin: 30px;
+            }
+        }
+
+        .rgi {
+            display: block;
+
+            img {
+                height: 85px;
+                width: auto;
+                margin: 30px;
+            }
+        }
+
+        .ieee {
+            display: block;
+
+            img {
+                height: 50px;
+                width: auto;
+                margin: 30px;
+            }
+        }
+
+        .jarvis {
+            display: block;
+
+            img {
+                width: 100px;
+                height: auto;
+                margin: 30px;
+            }
+        }
+
+        .gdgc {
+            display: block;
+
+            img {
+                padding-top: 15px;
+                height: 200px;
+
+                width: auto;
+                margin: 30px;
             }
         }
     }
@@ -34,16 +77,29 @@
 @media screen and (max-width: 450px) {
     .rootPresenters {
         margin-bottom: 50px;
-        width: 100%;
+        // width: 100%;
         .logoContainer {
-            display: flex;
-            flex-direction: column;
-            align-items: center;
-            justify-content: center;
-            img {
-                width: 100px;
-                height: auto;
-                margin: 20px;
+            // display: flex;
+            // flex-direction: column;
+            // align-items: center;
+            // justify-content: center;
+            // img {
+            //     width: 100px;
+            //     height: auto;
+            //     margin: 20px;
+            // }
+
+            .jarvis {
+                img {
+                    margin: 30px 30px 0 30px;
+                }
+            }
+
+            .gdgc {
+                img {
+                    margin: 0;
+                    padding: 0px;
+                }
             }
         }
     }

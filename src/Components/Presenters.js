@@ -15,20 +15,20 @@ const Presenters = () => {
     return (
         <div className={classes.rootPresenters}>
             <div className={classes.logoContainer}>
-                <div>
+                <div className={classes.ghrce}>
                     <img src={ghrce} />
                 </div>
-                <div>
+                <div className={classes.rgi}>
                     <img src={rgi} />
                 </div>
-                <div>
+                <div className={classes.ieee}>
                     <img src={ieee} />
                 </div>
 
-                <div>
+                <div className={classes.jarvis}>
                     <img src={jarvis} />
                 </div>
-                <div>
+                <div className={classes.gdgc}>
                     <img src={gdgc} />
                 </div>
             </div>
