@@ -26,9 +26,10 @@
             display: flex;
             flex-direction: column;
             justify-content: space-between;
+            padding-left: 40px;
 
             .eventMetas {
-                padding: 0px 0px 40px 0;
+                // padding: 0px 0px 40px 0;
 
                 .date,
                 .time,
@@ -197,6 +198,7 @@
 
             .datetimeContainer {
                 // margin-left: 16px;
+                padding-left: 0px;
                 .eventMetas {
                     padding: 0px;
                     .date,
