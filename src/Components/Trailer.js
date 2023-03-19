@@ -5,11 +5,19 @@ import { useCountdown } from "../hooks/useCountdown";
 
 const Trailer = () => {
     const countdownCore = useCountdown();
+    const { days, minutes, hours, seconds } = countdownCore;
+    const countDownStatus =
+        days <= 0 && days >= -1
+            ? "On Going Event"
+            : days <= 0 && hours <= 0 && minutes <= 0 && seconds <= 0
+            ? "Event Ended"
+            : "Comming Soon!";
 
     return (
         <div className={classes.rootTrailer}>
             <div className={classes.videoAndDatetime}>
                 <iframe
+                    data-aos="fade-right"
                     // width="560"
                     // height="315"
                     src="https://www.youtube.com/embed/Gv2beqTqFNA"
@@ -19,9 +27,9 @@ const Trailer = () => {
                     allowfullscreen
                 />
 
-                <div className={classes.datetimeContainer}>
+                <div className={classes.datetimeContainer} data-aos="fade-left">
                     <div className={classes.eventMetas}>
-                        <div className={classes.date}>
+                        <div className={classes.date} data-aos="fade-up">
                             <svg
                                 viewBox="0 0 24 24"
                                 xmlns="http://www.w3.org/2000/svg"
@@ -43,9 +51,9 @@ const Trailer = () => {
                             </div>
                         </div>
 
-                        {/* <div className={classes.line}></div> */}
+                        {/* <div className={classes.line} data-aos="fade-up"></div> */}
 
-                        <div className={classes.time}>
+                        <div className={classes.time} data-aos="fade-up">
                             <svg
                                 viewBox="0 0 24 24"
                                 xmlns="http://www.w3.org/2000/svg"
@@ -63,7 +71,7 @@ const Trailer = () => {
                             </div>
                         </div>
 
-                        <div className={classes.venue}>
+                        <div className={classes.venue} data-aos="fade-up">
                             <svg viewBox="0 0 297 297">
                                 <path
                                     d="M148.5,0C87.43,0,37.747,49.703,37.747,110.797c0,91.026,99.729,179.905,103.976,183.645
@@ -80,7 +88,7 @@ const Trailer = () => {
                         </div>
                     </div>
 
-                    <div className={classes.registerBtn}>
+                    <div className={classes.registerBtn} data-aos="fade-up">
                         <button>
                             <a href="/formlink" target={"_blank"}>
                                 Register Now!
@@ -90,20 +98,48 @@ const Trailer = () => {
                 </div>
             </div>
 
-            {/* <div className={classes.countdownContainer}>
-                {Object.keys(countdownCore).map((key) => {
-                    console.log(key);
+            <p className={classes.countdownTooltip} data-aos="fade-right">
+                {countDownStatus}
+            </p>
 
+            <div className={classes.countdownContainer}>
+                {Object.keys(countdownCore).map((key) => {
                     return (
-                        <div className={classes.countdownBox}>
-                            <div className={classes.countdownNumber}>
-                                {countdownCore[key]}
+                        <>
+                            <div className={classes.countdownBox}>
+                                <div
+                                    className={classes.countdownNumber}
+                                    data-aos="fade-down"
+                                >
+                                    {countdownCore[key] >= 0
+                                        ? countdownCore[key]
+                                        : 0}
+                                </div>
+
+                                <div
+                                    className={classes.countdownText}
+                                    data-aos="fade-up"
+                                >
+                                    {key}
+                                </div>
                             </div>
-                            <div className={classes.countdownText}>{key}</div>
-                        </div>
+
+                            {/* display collon for all execpt the last number */}
+                            {key !== "seconds" && (
+                                <div
+                                    className={`${classes.timeSeparator} ${
+                                        countdownCore.seconds % 2 === 0
+                                            ? classes.active
+                                            : classes.inactive
+                                    }`}
+                                >
+                                    :
+                                </div>
+                            )}
+                        </>
                     );
                 })}
-            </div> */}
+            </div>
         </div>
     );
 };
