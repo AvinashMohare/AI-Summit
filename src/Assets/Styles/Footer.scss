@@ -59,6 +59,13 @@
         }
     }
 
+    .mine {
+        padding-top: 25px;
+        a {
+            color: white;
+        }
+    }
+
     @media (max-width: 767px) {
         text-align: center;
 
@@ -133,6 +140,13 @@
             & :hover {
                 // color: black;
                 // background-color: white;
+            }
+        }
+
+        .mine {
+            margin-top: 5px;
+            a {
+                font-size: 12px;
             }
         }
     }

@@ -52,6 +52,12 @@ function Footer() {
                             Register Now
                         </a>
                     </div>
+
+                    <div className="mine">
+                        <a href="https://github.com/AvinashMohare">
+                            Made by - Avinash Mohare
+                        </a>
+                    </div>
                 </div>
             </div>
         </footer>
