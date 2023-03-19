@@ -54,8 +54,9 @@ const Timeline_Day2 = () => {
                     >
                         <h3>Panel Discussion</h3>
                         <p>
-                            Take a break during lunchtime to relax and
-                            rejuvenate before returning to your activities.
+                            The Panel Discussion would involve a group of
+                            experts exchanging their insights and views on the
+                            growth of AI with the audiences.
                         </p>
                     </li>
                     <li

@@ -5,13 +5,13 @@ import classes from "../Assets/Styles/LoadingScreen.module.scss";
 function LoadingScreen() {
     const names = ["AI Odyssey", "Workshops", "Games", "Power Talks", "Fun"];
     const [index, setIndex] = useState(0);
-    const [loading, setLoading] = useState(false);
+    const [loading, setLoading] = useState(true);
 
     useEffect(() => {
         // Simulate data loading with a timeout
         const timeoutId = setTimeout(() => {
             setLoading(false);
-        }, 3000);
+        }, 2500);
 
         return () => clearTimeout(timeoutId);
     }, []);

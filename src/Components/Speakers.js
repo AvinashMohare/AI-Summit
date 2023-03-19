@@ -39,7 +39,7 @@ const SpeakersList = [
 
 const Speakers = () => {
     return (
-        <div id="speakers" className={styles.speakersRoot}>
+        <div className={styles.speakersRoot}>
             <Heading backText="Speakers">Speakers</Heading>
 
             <div className={styles.speakersContainer}>
@@ -73,6 +73,7 @@ const Speakers = () => {
                     );
                 })}
             </div>
+            <div id="events"></div>
         </div>
     );
 };

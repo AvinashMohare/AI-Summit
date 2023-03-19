@@ -18,7 +18,7 @@ const Events = () => {
     };
 
     return (
-        <div id="timeline" className={classes.rootEvents}>
+        <div className={classes.rootEvents}>
             <Heading backText="Time Line">Time Line</Heading>
 
             <div className={classes.buttons}>
@@ -36,6 +36,7 @@ const Events = () => {
             </div>
 
             {show ? <Timeline_Day2 /> : <Timeline_Day1 />}
+            <div id="speakers"></div>
         </div>
     );
 };

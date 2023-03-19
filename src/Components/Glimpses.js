@@ -79,6 +79,7 @@ const Glimpses = (props) => {
                     );
                 })}
             </div>
+            <div id="timeline"></div>
         </div>
     );
 };

@@ -40,6 +40,15 @@
             }
         }
 
+        .coe {
+            display: block;
+
+            img {
+                height: auto;
+                width: 100px;
+                margin: 30px;
+            }
+        }
         .ieee {
             display: block;
 
@@ -88,6 +97,46 @@
             //     height: auto;
             //     margin: 20px;
             // }
+
+            .ghrce {
+                display: block;
+
+                img {
+                    width: 100px;
+                    height: auto;
+                    margin: 30px;
+                }
+            }
+
+            .rgi {
+                display: block;
+
+                img {
+                    height: 85px;
+                    width: auto;
+                    margin: 30px;
+                }
+            }
+
+            .coe {
+                display: block;
+
+                img {
+                    height: auto;
+                    width: 100px;
+                    margin: 30px;
+                }
+            }
+
+            .ieee {
+                display: block;
+
+                img {
+                    height: 50px;
+                    width: auto;
+                    margin: 30px;
+                }
+            }
 
             .jarvis {
                 img {

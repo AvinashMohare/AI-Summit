@@ -17,15 +17,14 @@ const Trailer = () => {
         <div className={classes.rootTrailer}>
             <div className={classes.videoAndDatetime}>
                 <iframe
-                    data-aos="fade-up"
-                    // width="560"
-                    // height="315"
-                    src="https://www.youtube.com/embed/Gv2beqTqFNA"
+                    width="560"
+                    height="315"
+                    src="https://www.youtube.com/embed/FGJPiPmD2yo"
                     title="YouTube video player"
                     frameborder="0"
                     allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
                     allowfullscreen
-                />
+                ></iframe>
 
                 <div className={classes.datetimeContainer} data-aos="fade-up">
                     <div className={classes.eventMetas}>
@@ -81,7 +80,9 @@ const Trailer = () => {
                                 />
                             </svg>
                             <div>
-                                <p>3rd Floor, F-21, G.H.R.C.E. Nagpur</p>
+                                <p>
+                                    G.H. Raisoni College of Engineering Nagpur
+                                </p>
                             </div>
                         </div>
                     </div>

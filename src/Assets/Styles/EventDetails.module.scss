@@ -60,10 +60,12 @@
                     align-items: center;
 
                     background-color: #00000080;
+                    backdrop-filter: blur(2px);
                 }
 
                 .eventDescription {
                     background-color: #00000099;
+                    backdrop-filter: blur(2px);
 
                     position: absolute;
                     top: 0;
