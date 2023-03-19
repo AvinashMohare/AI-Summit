@@ -5,15 +5,15 @@ import Heading from "./Heading";
 import classes from "../Assets/Styles/Glimpses.module.scss";
 
 import img1 from "../Assets/Images/Glimpses/1.png";
-import img2 from "../Assets/Images/Glimpses/2.jpg";
-import img3 from "../Assets/Images/Glimpses/3.jpg";
-import img4 from "../Assets/Images/Glimpses/4.jpg";
-import img5 from "../Assets/Images/Glimpses/h5.jpg";
-import img6 from "../Assets/Images/Glimpses/v6.jpg";
-import img7 from "../Assets/Images/Glimpses/n7.jpg";
-import img8 from "../Assets/Images/Glimpses/n8.jpg";
-import img9 from "../Assets/Images/Glimpses/h9.jpg";
-import img10 from "../Assets/Images/Glimpses/n10.jpg";
+import img2 from "../Assets/Images/Glimpses/2.JPG";
+import img3 from "../Assets/Images/Glimpses/3.JPG";
+import img4 from "../Assets/Images/Glimpses/4.JPG";
+import img5 from "../Assets/Images/Glimpses/h5.JPG";
+import img6 from "../Assets/Images/Glimpses/v6.JPG";
+import img7 from "../Assets/Images/Glimpses/n7.JPG";
+import img8 from "../Assets/Images/Glimpses/n8.JPG";
+import img9 from "../Assets/Images/Glimpses/h9.JPG";
+import img10 from "../Assets/Images/Glimpses/n10.JPG";
 
 const IMAGE_LIST = [
     { url: img1, className: classes.horizontal },
