@@ -15,6 +15,7 @@ import img8 from "../Assets/Images/Glimpses/n8.JPG";
 import img9 from "../Assets/Images/Glimpses/h9.JPG";
 import img10 from "../Assets/Images/Glimpses/n10.JPG";
 
+
 const IMAGE_LIST = [
     { url: img1, className: classes.horizontal },
     { url: img3, className: classes.horizontal },
