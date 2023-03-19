@@ -6,7 +6,7 @@ import Heading from "./Heading";
 const AiDept = () => {
     return (
         <div className={classes.rootAbout}>
-            <Heading backText="About AI">About AI Department</Heading>
+            <Heading backText="AI DEPT">AI Department</Heading>
             <div className={classes.contentContainer}>
                 <div className={classes.content}>
                     <p>

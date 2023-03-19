@@ -18,6 +18,7 @@ import EventDetails from "./Components/EventDetails";
 import LoadingScreen from "./Components/LoadinScreen";
 import Footer from "./Components/Footer";
 import AiDept from "./Components/AiDept";
+import Trailer from "./Components/Trailer";
 
 function App() {
     // Animations
@@ -39,7 +40,8 @@ function App() {
                 <LoadingScreen />
 
                 <AnimatedLanding />
-                {/* <Presenters /> */}
+                <Presenters />
+                <Trailer />
                 <About />
 
                 <AiDept />

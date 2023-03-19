@@ -14,19 +14,9 @@ const Timeline_Day1 = () => {
                     >
                         <h3>Inauguration</h3>
                         <p>
-                            {/* Lorem ipsum dolor sit amet, consectetur adipiscing
-                            elit, sed do eiusmod tempor incididunt ut labore et
-                            dolore magna aliqua. Ut enim ad minim veniam, quis
-                            nostrud exercitation ullamco laboris nisi ut aliq */}
+                            Commencement of event by lighting the lamp, followed
+                            by the welcoming of the judges and sponsors.
                         </p>
-                        {/* <p>
-                            Get here on time, it's first come first serve. Be
-                            late, get turned away.
-                        </p>
-                        <p>
-                            Get here on time, it's first come first serve. Be
-                            late, get turned away.
-                        </p> */}
                     </li>
                     <li
                         className="event"
@@ -35,10 +25,9 @@ const Timeline_Day1 = () => {
                     >
                         <h3>Keynote</h3>
                         <p>
-                            {/* Lorem ipsum dolor sit amet, consectetur adipiscing
-                            elit, sed do eiusmod tempor incididunt ut labore et
-                            dolore magna aliqua. Ut enim ad minim veniam, quis
-                            nostrud exercitation ullamco laboris nisi ut aliq */}
+                            Attend our keynote session to gain a clear
+                            understanding of AI technologies and explore
+                            inquisitive topics.
                         </p>
                     </li>
                     <li
@@ -49,10 +38,9 @@ const Timeline_Day1 = () => {
                     >
                         <h3>Scan & Hunt</h3>
                         <p>
-                            {/* Lorem ipsum dolor sit amet, consectetur adipiscing
-                            elit, sed do eiusmod tempor incididunt ut labore et
-                            dolore magna aliqua. Ut enim ad minim veniam, quis
-                            nostrud exercitation ullamco laboris nisi ut aliq */}
+                            Prepare yourself for Scan & Hunt, a game that
+                            requires collaborative problem-solving and
+                            clue-finding to reach the final target.
                         </p>
                     </li>
                     <li
@@ -63,10 +51,8 @@ const Timeline_Day1 = () => {
                     >
                         <h3>Lunch</h3>
                         <p>
-                            {/* Lorem ipsum dolor sit amet, consectetur adipiscing
-                            elit, sed do eiusmod tempor incididunt ut labore et
-                            dolore magna aliqua. Ut enim ad minim veniam, quis
-                            nostrud exercitation ullamco laboris nisi ut aliq */}
+                            Take a break during lunchtime to relax and
+                            rejuvenate before returning to your activities.
                         </p>
                     </li>
                     <li
@@ -77,10 +63,9 @@ const Timeline_Day1 = () => {
                     >
                         <h3>Workshop</h3>
                         <p>
-                            {/* Lorem ipsum dolor sit amet, consectetur adipiscing
-                            elit, sed do eiusmod tempor incididunt ut labore et
-                            dolore magna aliqua. Ut enim ad minim veniam, quis
-                            nostrud exercitation ullamco laboris nisi ut aliq */}
+                            Be prepared to dive deep into the oceans of
+                            knowledge imparted by the mentors in our Workshop
+                            session to gain the most of AI.
                         </p>
                     </li>
                     <li
@@ -90,12 +75,7 @@ const Timeline_Day1 = () => {
                         data-aos="fade-up"
                     >
                         <h3>Break</h3>
-                        <p>
-                            {/* Lorem ipsum dolor sit amet, consectetur adipiscing
-                            elit, sed do eiusmod tempor incididunt ut labore et
-                            dolore magna aliqua. Ut enim ad minim veniam, quis
-                            nostrud exercitation ullamco laboris nisi ut aliq */}
-                        </p>
+                        <p>Take a break to rest and recharge.</p>
                     </li>
                     <li
                         className="event"
@@ -105,10 +85,9 @@ const Timeline_Day1 = () => {
                     >
                         <h3>Go Algo</h3>
                         <p>
-                            {/* Lorem ipsum dolor sit amet, consectetur adipiscing
-                            elit, sed do eiusmod tempor incididunt ut labore et
-                            dolore magna aliqua. Ut enim ad minim veniam, quis
-                            nostrud exercitation ullamco laboris nisi ut aliq */}
+                            Join us for GoAlgo, a game that will challenge your
+                            programming skills by getting you to solve
+                            algorithms and eliminating the errors in them.
                         </p>
                     </li>
                 </ul>

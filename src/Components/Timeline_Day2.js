@@ -15,17 +15,10 @@ const Timeline_Day2 = () => {
                     >
                         <h3>Career Roadmap</h3>
                         <p>
-                            {/* Lorem ipsum dolor sit amet, consectetur adipiscing
-                            elit, sed */}
+                            If you feel you are on a wobbly journey for your
+                            career join us at Career Roadmap and get yourself a
+                            clear vision for your better future.
                         </p>
-                        {/* <p>
-                            Get here on time, it's first come first serve. Be
-                            late, get turned away.
-                        </p>
-                        <p>
-                            Get here on time, it's first come first serve. Be
-                            late, get turned away.
-                        </p> */}
                     </li>
                     <li
                         className="event"
@@ -35,10 +28,10 @@ const Timeline_Day2 = () => {
                     >
                         <h3>AI Wizard and Quiz Preliminary</h3>
                         <p>
-                            {/* Lorem ipsum dolor sit amet, consectetur adipiscing
-                            elit, sed do eiusmod tempor incididunt ut labore et
-                            dolore magna aliqua. Ut enim ad minim veniam, quis
-                            nostrud exercitation ullamco laboris nisi ut aliq */}
+                            All the knowledge and passion for AI has found its
+                            junction here at AI Wizard and the Quiz Preliminary
+                            Round. Both the games will challenge your skills in
+                            AI to find the best AI enthusiast of all.
                         </p>
                     </li>
                     <li
@@ -49,10 +42,8 @@ const Timeline_Day2 = () => {
                     >
                         <h3>Lunch</h3>
                         <p>
-                            {/* Lorem ipsum dolor sit amet, consectetur adipiscing
-                            elit, sed do eiusmod tempor incididunt ut labore et
-                            dolore magna aliqua. Ut enim ad minim veniam, quis
-                            nostrud exercitation ullamco laboris nisi ut aliq */}
+                            Take a break during lunchtime to relax and
+                            rejuvenate before returning to your activities.
                         </p>
                     </li>
                     <li
@@ -63,10 +54,8 @@ const Timeline_Day2 = () => {
                     >
                         <h3>Panel Discussion</h3>
                         <p>
-                            {/* Lorem ipsum dolor sit amet, consectetur adipiscing
-                            elit, sed do eiusmod tempor incididunt ut labore et
-                            dolore magna aliqua. Ut enim ad minim veniam, quis
-                            nostrud exercitation ullamco laboris nisi ut aliq */}
+                            Take a break during lunchtime to relax and
+                            rejuvenate before returning to your activities.
                         </p>
                     </li>
                     <li
@@ -77,10 +66,10 @@ const Timeline_Day2 = () => {
                     >
                         <h3>Quiz Finals</h3>
                         <p>
-                            {/* Lorem ipsum dolor sit amet, consectetur adipiscing
-                            elit, sed do eiusmod tempor incididunt ut labore et
-                            dolore magna aliqua. Ut enim ad minim veniam, quis
-                            nostrud exercitation ullamco laboris nisi ut aliq */}
+                            After showcasing their proficiency in the Quiz
+                            Preliminary Round, the qualifying teams will face
+                            Quiz Finals where one of them will become the
+                            ultimate AI know-it-all.
                         </p>
                     </li>
                     <li
@@ -91,10 +80,9 @@ const Timeline_Day2 = () => {
                     >
                         <h3>Valedictory</h3>
                         <p>
-                            {/* Lorem ipsum dolor sit amet, consectetur adipiscing
-                            elit, sed do eiusmod tempor incididunt ut labore et
-                            dolore magna aliqua. Ut enim ad minim veniam, quis
-                            nostrud exercitation ullamco laboris nisi ut aliq */}
+                            All the winners and runner ups will be felicitated
+                            with prizes and more for their amazing performances
+                            at AI Odyssey
                         </p>
                     </li>
                 </ul>

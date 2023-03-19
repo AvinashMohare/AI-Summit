@@ -9,10 +9,10 @@ const SpeakersList = [
     {
         // image: Image,
         image: "https://img.freepik.com/free-vector/public-speaking-avatar_98292-6629.jpg?w=740&t=st=1678262099~exp=1678262699~hmac=6c36b3a1136fd429c80f7442e024589a18fce3cccfc257e85bb9a173300cc5f4",
-        name: "Avinash Mohare",
+        name: "Coming Soon",
         about: "Coming Soon",
         url: "https://linkedin.com",
-        co: "Tensorflow",
+        co: "Coming Soon",
     },
     {
         image: "https://img.freepik.com/free-vector/public-speaking-avatar_98292-6629.jpg?w=740&t=st=1678262099~exp=1678262699~hmac=6c36b3a1136fd429c80f7442e024589a18fce3cccfc257e85bb9a173300cc5f4",
