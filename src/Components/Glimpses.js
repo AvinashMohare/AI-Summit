@@ -4,7 +4,7 @@ import Heading from "./Heading";
 
 import classes from "../Assets/Styles/Glimpses.module.scss";
 
-import img1 from "../Assets/Images/Glimpses/h5.jpg";
+import img1 from "../Assets/Images/Glimpses/1.png";
 import img2 from "../Assets/Images/Glimpses/2.jpg";
 import img3 from "../Assets/Images/Glimpses/3.jpg";
 import img4 from "../Assets/Images/Glimpses/4.jpg";
@@ -26,37 +26,6 @@ const IMAGE_LIST = [
     { url: img8, className: classes.normal },
     { url: img10, className: classes.normal },
     { url: img9, className: classes.horizontal },
-
-    // { url: "https://picsum.photos/2000/2000", className: classes.normal },
-    // { url: "https://picsum.photos/2000/2000", className: classes.horizontal },
-    // { url: "https://picsum.photos/2000/2000", className: classes.horizontal },
-    // { url: "https://picsum.photos/2000/2000", className: classes.vertical },
-    // { url: "https://picsum.photos/2000/2000", className: classes.normal },
-    // { url: "https://picsum.photos/2000/2000", className: classes.horizontal },
-    // { url: "https://picsum.photos/2000/2000", className: classes.vertical },
-    // { url: "https://picsum.photos/2000/2000", className: classes.horizontal },
-    // { url: "https://picsum.photos/2000/2000", className: classes.vertical },
-    // { url: "https://picsum.photos/2000/2000", className: classes.horizontal },
-    // { url: "https://picsum.photos/2000/2000", className: classes.normal },
-    // { url: "https://picsum.photos/2000/2000", className: classes.horizontal },
-    // { url: "https://picsum.photos/2000/2000", className: classes.horizontal },
-    // { url: "https://picsum.photos/2000/2000", className: classes.normal },
-    // { url: "https://picsum.photos/2000/2000", className: classes.vertical },
-    // { url: "https://picsum.photos/2000/2000", className: classes.normal },
-    // { url: "https://picsum.photos/2000/2000", className: classes.horizontal },
-    // { url: "https://picsum.photos/2000/2000", className: classes.vertical },
-    // { url: "https://picsum.photos/2000/2000", className: classes.vertical },
-    // { url: "https://picsum.photos/2000/2000", className: classes.vertical },
-    // { url: "https://picsum.photos/2000/2000", className: classes.horizontal },
-    // { url: "https://picsum.photos/2000/2000", className: classes.vertical },
-    // { url: "https://picsum.photos/2000/2000", className: classes.normal },
-    // { url: "https://picsum.photos/2000/2000", className: classes.horizontal },
-    // { url: "https://picsum.photos/2000/2000", className: classes.horizontal },
-    // { url: "https://picsum.photos/2000/2000", className: classes.normal },
-    // { url: "https://picsum.photos/2000/2000", className: classes.vertical },
-    // { url: "https://picsum.photos/2000/2000", className: classes.normal },
-    // { url: "https://picsum.photos/2000/2000", className: classes.horizontal },
-    // { url: "https://picsum.photos/2000/2000", className: classes.normal },
 ];
 
 const CLASSES = [classes.vertical, classes.horizontal, classes.normal];
