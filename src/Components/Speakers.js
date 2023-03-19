@@ -1,6 +1,6 @@
 import React from "react";
 
-import Image from "../Assets/Images/Glimpses/n7.JPG";
+// import Image from "../Assets/Images/Glimpses/n7.JPG";
 
 import styles from "../Assets/Styles/Speakers.module.scss";
 import Heading from "./Heading";
