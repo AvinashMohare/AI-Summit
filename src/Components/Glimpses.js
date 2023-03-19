@@ -4,7 +4,7 @@ import Heading from "./Heading";
 
 import classes from "../Assets/Styles/Glimpses.module.scss";
 
-import img1 from "../Assets/Images/Glimpses/h1.png";
+import img1 from "../Assets/Images/Glimpses/h1.jpg";
 // import img2 from "../Assets/Images/Glimpses/2.png";
 import img3 from "../Assets/Images/Glimpses/3.jpg";
 import img4 from "../Assets/Images/Glimpses/4.jpg";
