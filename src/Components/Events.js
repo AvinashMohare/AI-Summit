@@ -24,13 +24,13 @@ const Events = () => {
             <div className={classes.buttons}>
                 <div className={classes.button} onClick={timelineHandler}>
                     <p>
-                        24<sup>th</sup> March
+                        31<sup>st</sup> March
                     </p>
                 </div>
 
                 <div className={classes.button} onClick={timelineHandler2}>
                     <p>
-                        25<sup>th</sup> March
+                        1<sup>st</sup> April
                     </p>
                 </div>
             </div>

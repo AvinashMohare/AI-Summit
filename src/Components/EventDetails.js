@@ -3,6 +3,7 @@ import React from "react";
 import styles from "../Assets/Styles/EventDetails.module.scss";
 import Heading from "./Heading";
 
+import innovation from "../Assets/Images/Events/Innovation.png";
 import treasurehunt from "../Assets/Images/Events/TreasureHunt.png";
 import aiwizard from "../Assets/Images/Events/AIWizard.png";
 import mindscape from "../Assets/Images/Events/Mindscape.jpeg";
@@ -43,7 +44,7 @@ const EventsInfoData = [
         id: 1,
         name: "Innovation Junction",
         desc: "Introducing Innovation Junction, the game that promises to unlock your creativity and imagination like never before! Get ready to generate game-changing ideas and tap into your inner innovator with this ultimate idea-generation experience. In this fast-paced game, players will be challenged to come up with innovative solutions to a variety of prompts and scenarios, from business challenges to social issues and beyond. With each round, players will have a limited amount of time to brainstorm and pitch their ideas. ",
-        img: treasurehunt,
+        img: innovation,
         url: "",
     },
     {
