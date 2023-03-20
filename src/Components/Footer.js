@@ -10,13 +10,13 @@ function Footer() {
                     <div className="col-md-4">
                         <h3>About Us</h3>
                         <p>
-                            We are very glad to announce AI Odyssey, a blend of
-                            AI and games.
+                            We are elated to announce AI Odyssey - a blend of AI
+                            and games.
                         </p>
 
                         <p>
-                            AI Odyssey is going to be on March 31 and April 1,
-                            2023. AI Odyssey will discuss AI and its functions
+                            AI Odyssey is going to be held on March 31 and April
+                            1, 2023. Here, we will discuss AI and its functions
                             in a fun, creative and innovative manner.
                         </p>
                     </div>
@@ -57,7 +57,10 @@ function Footer() {
                     </div>
 
                     <div className="mine">
-                        <a href="https://github.com/AvinashMohare">
+                        <a
+                            href="https://linktr.ee/avinash_mohare?utm_source=linktree_admin_share"
+                            target={"_blank"}
+                        >
                             Made by - Avinash Mohare
                         </a>
                     </div>

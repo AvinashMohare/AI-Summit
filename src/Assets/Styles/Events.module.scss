@@ -16,10 +16,13 @@
             // border: 1px solid white;
             // border-radius: 10px;
             margin-left: 20px;
-            width: fit-content;
+            // width: fit-content;
+            width: 140px;
+            height: fit-content;
             padding: 8px 15px;
             color: #0b1027;
 
+            text-align: center;
             // background-color: rgba(137, 203, 241, 0.2);
             background-color: white;
 
@@ -51,16 +54,18 @@
 
         .buttons {
             padding-top: 0px;
+            padding-bottom: 30px;
 
             display: flex;
             flex-direction: row;
             // margin-bottom: 10px;
             // justify-content space: ;
             // margin: 20px;
-
+            // width: 10px;
+            // height: fit-content;
             .button {
-                // height: 150px;
-                // width: 150px;
+                height: fit-content;
+                width: 100px;
                 // background-color: aqua;
                 // border: 1px solid white;
                 // border-radius: 10px;

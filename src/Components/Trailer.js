@@ -146,7 +146,7 @@ const Trailer = () => {
                         href="https://form.typeform.com/to/QCUDC1mO?typeform-source=qrcode-button"
                         target={"_blank"}
                     >
-                        Register Now!
+                        Register Now
                     </a>
                 </button>
             </div>

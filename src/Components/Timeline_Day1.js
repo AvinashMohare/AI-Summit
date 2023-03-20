@@ -14,8 +14,9 @@ const Timeline_Day1 = () => {
                     >
                         <h3>Inauguration</h3>
                         <p>
-                            Commencement of event by lighting the lamp, followed
-                            by the welcoming of the judges and sponsors.
+                            Commencement of event by lightning the lamp,
+                            followed by the welcoming of the judges and
+                            sponsors.
                         </p>
                     </li>
                     <li
@@ -64,7 +65,7 @@ const Timeline_Day1 = () => {
                         <h3>Workshop</h3>
                         <p>
                             Be prepared to dive deep into the oceans of
-                            knowledge imparted by the mentors in our Workshop
+                            knowledge imparted by the mentors in our workshop
                             session to gain the most of AI.
                         </p>
                     </li>

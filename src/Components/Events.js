@@ -19,7 +19,7 @@ const Events = () => {
 
     return (
         <div className={classes.rootEvents}>
-            <Heading backText="Time Line">Time Line</Heading>
+            <Heading backText="Timeline">Timeline</Heading>
 
             <div className={classes.buttons}>
                 <div className={classes.button} onClick={timelineHandler}>
