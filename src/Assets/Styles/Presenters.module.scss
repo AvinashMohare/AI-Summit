@@ -36,7 +36,8 @@
             img {
                 height: 85px;
                 width: auto;
-                margin: 30px;
+                // margin: 30px;
+                margin: 30px 10px 30px 40px;
             }
         }
 
@@ -46,7 +47,7 @@
             img {
                 height: auto;
                 width: 100px;
-                margin: 30px;
+                margin: 30px 10px 30px 30px;
             }
         }
         .ieee {
@@ -63,8 +64,8 @@
             display: block;
 
             img {
-                width: 100px;
-                height: auto;
+                width: auto;
+                height: 170px;
                 margin: 30px;
             }
         }
@@ -114,7 +115,7 @@
                 img {
                     height: 85px;
                     width: auto;
-                    margin: 30px;
+                    margin: 30px 30px 0 30px;
                 }
             }
 
@@ -124,7 +125,8 @@
                 img {
                     height: auto;
                     width: 100px;
-                    margin: 30px;
+                    // margin: 30px;
+                    margin: 30px 30px 0px 30px;
                 }
             }
 
@@ -134,13 +136,14 @@
                 img {
                     height: 50px;
                     width: auto;
-                    margin: 30px;
+                    // margin: 30px;
+                    margin: 10px 30px 30px 30px;
                 }
             }
 
             .jarvis {
                 img {
-                    margin: 30px 30px 0 30px;
+                    margin: 0px 30px 0 30px;
                 }
             }
 

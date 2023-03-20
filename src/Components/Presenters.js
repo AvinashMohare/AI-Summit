@@ -6,7 +6,7 @@ import ghrce from "../Assets/Images/Logos/GHRCE.png";
 import rgi from "../Assets/Images/Logos/RGi.png";
 
 import ieee from "../Assets/Images/Logos/IEEE_CIS_logo_White.png";
-import jarvis from "../Assets/Images/Logos/JARVIS.png";
+import jarvis from "../Assets/Images/Logos/Jarvis.png";
 // import jarvis_black from "../Assets/Images/Logos/JARVIS_black.png";
 import gdgc from "../Assets/Images/Logos/GDGC.png";
 import coe from "../Assets/Images/Logos/coeaiml.png";
@@ -23,15 +23,16 @@ const Presenters = () => {
                 <div className={classes.rgi}>
                     <img src={rgi} />
                 </div>
-                <div className={classes.coe}>
-                    <img src={coe} />
+                <div className={classes.jarvis}>
+                    <img src={jarvis} />
                 </div>
+
                 <div className={classes.ieee}>
                     <img src={ieee} />
                 </div>
 
-                <div className={classes.jarvis}>
-                    <img src={jarvis} />
+                <div className={classes.coe}>
+                    <img src={coe} />
                 </div>
                 <div className={classes.gdgc}>
                     <img src={gdgc} />

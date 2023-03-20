@@ -5,7 +5,7 @@ import Heading from "./Heading";
 
 import innovation from "../Assets/Images/Events/Innovation.png";
 import treasurehunt from "../Assets/Images/Events/TreasureHunt.png";
-import aiwizard from "../Assets/Images/Events/aiwizard.png";
+import aiwizard from "../Assets/Images/Events/AIWizard.png";
 import mindscape from "../Assets/Images/Events/Mindscape.jpeg";
 import smartplayoffs from "../Assets/Images/Events/SmartPlayofs.png";
 // import innovationjunction from "../Assets/Images/Events/InnovationJunction.mp4";
