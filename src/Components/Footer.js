@@ -24,7 +24,7 @@ function Footer() {
                         <h3>Contact Us</h3>
                         <p>G.H. Raisoni College of Engineering, Nagpur</p>
                         {/* <p>Phone: 555-555-5555</p> */}
-                        <p>Email: aiodyssey@ghrce.raisoni.net</p>
+                        {/* <p>Email: aiodyssey@ghrce.raisoni.net</p> */}
                     </div>
                     {/* <div className="col-md-4">
                         <h3>Connect With Us</h3>
