@@ -15,7 +15,7 @@ function Footer() {
                         </p>
 
                         <p>
-                            AI Odyssey is going to be on March 24 and March 25,
+                            AI Odyssey is going to be on March 31 and April 1,
                             2023. AI Odyssey will discuss AI and its functions
                             in a fun, creative and innovative manner.
                         </p>

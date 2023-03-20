@@ -20,8 +20,8 @@ const About = () => {
                         fused with games there is no better way to learn it.
                     </p>
                     <p>
-                        AI Odyssey is going to be on held on March 31 and April
-                        1st, 2023. It will discuss AI and its functions in a
+                        AI Odyssey is going to be held on March 31 and April 1,
+                        2023. Here, we will discuss AI and its functions in a
                         fun, creative and innovative way.
                     </p>
                     <p>
