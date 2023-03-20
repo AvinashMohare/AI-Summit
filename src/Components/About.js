@@ -21,13 +21,15 @@ const About = () => {
                     </p>
                     <p>
                         AI Odyssey is going to be held on March 31 and April 1,
-                        2023. Here, we will discuss AI and its functions in a
-                        fun, creative and innovative way.
+                        2023 where the junction of games will make you dive deep
+                        into the creative, theoretical, applicable, visionary
+                        and innovative ways of implementing Artificial
+                        Intelligence.
                     </p>
                     <p>
-                        AI Odyssey is a junction of games where you can dive
-                        into the creative, theoretical, applicable, visionary
-                        and innovative ways of Artificial Intelligence.
+                        The event is open to students, professionals, and
+                        enthusiasts from various fields such as engineering,
+                        computer science, game development, and others.
                     </p>
                 </div>
 

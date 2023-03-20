@@ -7,6 +7,7 @@ import rgi from "../Assets/Images/Logos/RGi.png";
 
 import ieee from "../Assets/Images/Logos/IEEE_CIS_logo_White.png";
 import jarvis from "../Assets/Images/Logos/JARVIS.png";
+// import jarvis_black from "../Assets/Images/Logos/JARVIS_black.png";
 import gdgc from "../Assets/Images/Logos/GDGC.png";
 import coe from "../Assets/Images/Logos/coeaiml.png";
 

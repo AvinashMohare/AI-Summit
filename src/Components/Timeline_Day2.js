@@ -48,7 +48,7 @@ const Timeline_Day2 = () => {
                     </li>
                     <li
                         className="event"
-                        data-date="1:30 PM - 3:00 PM"
+                        data-date="01:30 PM - 3:00 PM"
                         // data-aos="fade-left"
                         data-aos="fade-up"
                     >

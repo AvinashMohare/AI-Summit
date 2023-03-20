@@ -13,20 +13,20 @@ const AiDept = () => {
                         The Department of Artificial Intelligence of G H Raisoni
                         College of Engineering was established in 2019. B.Tech.
                         in Artificial Intelligence is an undergraduate programme
-                        with advanced learning solutions imparting knowledge of
+                        with advanced learning solutions, imparting knowledge of
                         advanced innovations like machine learning, often called
                         deep learning and artificial intelligence.
                     </p>
                     <p>
                         This specialisation is designed to enable students to
-                        build intelligent machines, software, or applications
+                        build intelligent machines, software or applications
                         with a cutting-edge combination of machine learning,
                         analytics and visualisation technologies. This programme
                         discusses AI methods based in different fields,
                         including neural networks, signal processing, Natural
-                        language processing, and data mining, in order to
-                        present a unified treatment of machine learning problems
-                        and solutions.
+                        Language Processing, and data mining in order to present
+                        a unified treatment of machine learning problems and
+                        solutions.
                     </p>
                     {/* <p>
                         AI Odyssey is a junction of games where you can dive

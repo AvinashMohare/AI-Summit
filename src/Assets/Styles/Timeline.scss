@@ -76,16 +76,21 @@
         }
 
         &:before {
-            left: -217.5px;
+            // font-weight: 700;
+
+            // font-weight: 700;
+            left: -245.5px;
             color: fade(white, 40%);
             content: attr(data-date);
             text-align: right;
-            font-weight: 500;
+            font-weight: 700;
             font-size: 0.9em;
             min-width: 120px;
+            // border: 1px solid white;
         }
 
         &:after {
+            font-weight: 700;
             box-shadow: 0 0 0 4px fade(#4298c3, 100%);
             left: -57.85px;
             background: lighten(white, 5%);
@@ -169,7 +174,7 @@
                 left: -170px;
                 content: attr(data-date);
                 text-align: right;
-                font-weight: 500;
+                font-weight: 700;
                 font-size: 8px;
                 width: 30px;
             }
