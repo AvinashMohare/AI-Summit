@@ -48,9 +48,9 @@ const Header = () => {
                 <div className={classes.headerControls}>
                     <div className={classes.navigation}>
                         <ul>
-                            <li>
+                            {/* <li>
                                 <a href="#speakers">Speakers</a>
-                            </li>
+                            </li> */}
                             <li>
                                 <a href="#events">Events</a>
                             </li>
