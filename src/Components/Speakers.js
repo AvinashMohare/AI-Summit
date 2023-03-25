@@ -8,25 +8,25 @@ import Heading from "./Heading";
 const SpeakersList = [
     {
         // image: Image,
-        image: "https://img.freepik.com/free-vector/public-speaking-avatar_98292-6629.jpg?w=740&t=st=1678262099~exp=1678262699~hmac=6c36b3a1136fd429c80f7442e024589a18fce3cccfc257e85bb9a173300cc5f4",
-        name: "Coming Soon",
-        about: "Coming Soon",
-        url: "https://linkedin.com",
-        co: "Coming Soon",
+        image: "https://media.licdn.com/dms/image/C5103AQFP6ESvGnmU3A/profile-displayphoto-shrink_400_400/0/1577369922716?e=1684972800&v=beta&t=aGYb-W2P-XJCwapPZl0QZRbs7hyWDaOuw_kFfgyRLdc",
+        name: "Aditya Rane",
+        // about: "Coming Soon",
+        url: "https://www.linkedin.com/in/aditya-rane/",
+        co: "Google",
     },
     {
-        image: "https://img.freepik.com/free-vector/public-speaking-avatar_98292-6629.jpg?w=740&t=st=1678262099~exp=1678262699~hmac=6c36b3a1136fd429c80f7442e024589a18fce3cccfc257e85bb9a173300cc5f4",
-        name: "Coming Soon",
-        about: "Coming Soon",
-        url: "https://linkedin.com",
-        co: "Coming Soon",
+        image: "https://media.licdn.com/dms/image/C5603AQGEV-kzawPxjw/profile-displayphoto-shrink_400_400/0/1588602102622?e=1684972800&v=beta&t=9I2VAjrdk2UTm4auncoJMo8Vfsg4gxsubut9LcXNG5Q",
+        name: "Aditya Jyoti Paul",
+        // about: "Coming Soon",
+        url: "https://www.linkedin.com/in/phreakyphoenix/",
+        co: "ReflectiveAI",
     },
     {
-        image: "https://img.freepik.com/free-vector/public-speaking-avatar_98292-6629.jpg?w=740&t=st=1678262099~exp=1678262699~hmac=6c36b3a1136fd429c80f7442e024589a18fce3cccfc257e85bb9a173300cc5f4",
-        name: "Coming Soon",
-        about: "Coming Soon",
-        url: "https://linkedin.com",
-        co: "Coming Soon",
+        image: "https://media.licdn.com/dms/image/C4E03AQHIezOX5Akkbg/profile-displayphoto-shrink_400_400/0/1608274203211?e=1684972800&v=beta&t=MmVpuQ672wJTqnr-1wpE7GUs2VBHYqKFXwuf-7XVsRw",
+        name: "Akshay Zadgaonkar",
+        // about: "Coming Soon",
+        url: "https://www.linkedin.com/in/akshayz/",
+        co: "BabyVerse",
     },
     // {
     //     image: "https://avatars.githubusercontent.com/u/50291544?v=4",
@@ -67,7 +67,9 @@ const Speakers = () => {
                             </p> */}
 
                             <p className={styles.speakerURL} data-aos="fade-up">
-                                <a href={speaker.url}>Connect with Me</a>
+                                <a href={speaker.url} target={"_blank"}>
+                                    Connect with Me
+                                </a>
                             </p>
                         </div>
                     );
