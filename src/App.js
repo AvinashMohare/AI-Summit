@@ -11,7 +11,7 @@ import About from "./Components/About";
 import Glimpses from "./Components/Glimpses";
 import Events from "./Components/Events";
 import Sponsors from "./Components/Sponsors";
-// import Speakers from "./Components/Speakers";
+import Speakers from "./Components/Speakers";
 import AnimatedLanding from "./Components/AnimatedLanding";
 // import Timeline from "./Components/Timeline";
 import EventDetails from "./Components/EventDetails";
@@ -47,7 +47,7 @@ function App() {
                 <AiDept />
                 <Glimpses />
                 <Events />
-                {/* <Speakers /> */}
+                <Speakers />
                 <EventDetails />
                 {/* <Sponsors /> */}
                 <Footer />
