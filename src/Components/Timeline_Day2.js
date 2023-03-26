@@ -26,12 +26,13 @@ const Timeline_Day2 = () => {
                         // data-aos="fade-left"
                         data-aos="fade-up"
                     >
-                        <h3>AI Wizard and Quiz Preliminary</h3>
+                        <h3>AI Wizard and Mindscape Preliminary</h3>
                         <p>
                             All the knowledge and passion for AI has found its
-                            junction here at AI Wizard and the Quiz Preliminary
-                            Round. Both the games will challenge your skills in
-                            AI to find the best AI enthusiast of all.
+                            junction here at AI Wizard and the Mindscape
+                            Preliminary Round. Both the games will challenge
+                            your skills in AI to find the best AI enthusiast of
+                            all.
                         </p>
                     </li>
                     <li
@@ -65,12 +66,11 @@ const Timeline_Day2 = () => {
                         // data-aos="fade-left"
                         data-aos="fade-up"
                     >
-                        <h3>Quiz Finals</h3>
+                        <h3>Ai wizard and Mindscape finals</h3>
                         <p>
-                            After showcasing their proficiency in the Quiz
-                            Preliminary Round, the qualifying teams will face
-                            Quiz Finals where one of them will become the
-                            ultimate AI know-it-all.
+                            After showcasing their proficiency in the qualifying
+                            rounds, the teams will face the Finals where one of
+                            the teams will become the ultimate AI know-it-all.
                         </p>
                     </li>
                     <li

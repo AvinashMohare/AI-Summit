@@ -37,11 +37,12 @@ const Timeline_Day1 = () => {
                         // data-aos="fade-left"
                         data-aos="fade-up"
                     >
-                        <h3>Scan & Hunt</h3>
+                        <h3>Scan & Hunt and The Smart Playoffs</h3>
                         <p>
-                            Prepare yourself for Scan & Hunt, a game that
-                            requires collaborative problem-solving and
-                            clue-finding to reach the final target.
+                            Prepare yourself for Scan & Hunt and The Smart
+                            Playoffs. Both the games vary each other as well as
+                            complete each other. We got you covered from
+                            problem-solving to skill building.
                         </p>
                     </li>
                     <li
@@ -84,11 +85,12 @@ const Timeline_Day1 = () => {
                         // data-aos="fade-left"
                         data-aos="fade-up"
                     >
-                        <h3>Go Algo</h3>
+                        <h3>Go Algo and Innovation Junction</h3>
                         <p>
-                            Join us for GoAlgo, a game that will challenge your
-                            programming skills by getting you to solve
-                            algorithms and eliminating the errors in them.
+                            Get ready for GoAlgo and Innovation Junction. A
+                            junction of games where one will challenge your
+                            programming skills whilst the other challenges your
+                            innovative skills.
                         </p>
                     </li>
                 </ul>
