@@ -1,6 +1,6 @@
 import { useState, useEffect } from "react";
 
-const EVENT_STARTING_DATETIME = "2023-03-31T07:00:00.000Z";
+export const EVENT_STARTING_DATETIME = "2023-03-31 10:00:00 AM";
 
 /**
  * this function returns the days, hours, minutes, seconds left
