@@ -64,22 +64,24 @@ const EventDetails = () => {
             <div className={styles.eventsDetailsMain}>
                 {EventsInfoData.map((eventInfo) => {
                     return (
-                        <a href={eventInfo.url} target="_blank">
-                            <div className={styles.eventCard}>
-                                <img
-                                    className={styles.eventImg}
-                                    src={eventInfo.img}
-                                />
+                        <>
+                            <a href={eventInfo.url} target="_blank">
+                                <div className={styles.eventCard}>
+                                    <img
+                                        className={styles.eventImg}
+                                        src={eventInfo.img}
+                                    />
 
-                                <p className={styles.eventTitle}>
-                                    {eventInfo.name}
-                                </p>
+                                    <p className={styles.eventTitle}>
+                                        {eventInfo.name}
+                                    </p>
 
-                                <p className={styles.eventDescription}>
-                                    {eventInfo.desc}
-                                </p>
-                            </div>
-                        </a>
+                                    <p className={styles.eventDescription}>
+                                        {eventInfo.desc}
+                                    </p>
+                                </div>
+                            </a>
+                        </>
                     );
                 })}
             </div>

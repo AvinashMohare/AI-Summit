@@ -36,6 +36,7 @@ const Events = () => {
             </div>
 
             {show ? <Timeline_Day2 /> : <Timeline_Day1 />}
+
             <div id="speakers"></div>
         </div>
     );
