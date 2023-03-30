@@ -5,12 +5,13 @@ import { useCountdown } from "../hooks/useCountdown";
 
 const Trailer = () => {
     const countdownCore = useCountdown();
-    const { days, minutes, hours, seconds } = countdownCore;
+
+    const { Days, Mins, Hours, Secs } = countdownCore;
     const countDownStatus =
-        days <= 0 && days >= -1
+        Days <= 0 && Days >= -1 && Hours <= 0 && Mins <= 0 && Secs <= 0
             ? "On Going Event"
-            : days <= 0 && hours <= 0 && minutes <= 0 && seconds <= 0
-            ? "Event Ended"
+            : Days <= 0 && Hours <= 0 && Mins <= 0 && Secs <= 0
+            ? "Registration Closed"
             : "Coming Soon!";
 
     return (
