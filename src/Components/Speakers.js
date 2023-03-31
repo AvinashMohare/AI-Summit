@@ -22,18 +22,25 @@ const SpeakersList = [
         co: "ReflectiveAI",
     },
     {
-        image: "https://media.licdn.com/dms/image/C4E03AQHIezOX5Akkbg/profile-displayphoto-shrink_400_400/0/1608274203211?e=1684972800&v=beta&t=MmVpuQ672wJTqnr-1wpE7GUs2VBHYqKFXwuf-7XVsRw",
-        name: "Akshay Zadgaonkar",
-        // about: "Coming Soon",
-        url: "https://www.linkedin.com/in/akshayz/",
-        co: "BabyVerse",
-    },
-    {
         image: "https://media.licdn.com/dms/image/C4E03AQHy74cQXZU5Nw/profile-displayphoto-shrink_400_400/0/1591702102131?e=1685577600&v=beta&t=f626ajjuV6G7DP3ubH18L_i1Yu1BPVnFKpLrQs8ukaQ",
         name: "Hemant Kshirsagar",
         // about: "Coming Soon",
         url: "https://www.linkedin.com/in/hemant-kshirsagar-31796279/",
         co: "Kizora Software",
+    },
+    {
+        image: "https://media.licdn.com/dms/image/D4D03AQFgzlVi276ymw/profile-displayphoto-shrink_400_400/0/1665824209290?e=1685577600&v=beta&t=5jvme2tSsC9crfGCqJO1oVIp30MhN03wLzResyef6I0",
+        name: "Dr Latesh Bhagat ",
+        // about: "Coming Soon",
+        url: "https://www.linkedin.com/in/dr-latesh-bhagat-malik-b22811a/",
+        co: "Associate Professor, GCOEN",
+    },
+    {
+        image: "https://media.licdn.com/dms/image/C5603AQHA5qCse4ZdrQ/profile-displayphoto-shrink_400_400/0/1658596566056?e=1685577600&v=beta&t=iPDfTUfRJz8Souy-DzhiTp6sfIBtOk89w4ZCykYNlx0",
+        name: "Aditya Bobde",
+        // about: "Coming Soon",
+        url: "https://www.linkedin.com/in/aditya-bobde/",
+        co: "Research Intern, ISB",
     },
     // {
     //     image: "https://avatars.githubusercontent.com/u/50291544?v=4",

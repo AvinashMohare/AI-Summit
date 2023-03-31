@@ -52,7 +52,12 @@ const Header = () => {
                                 <a href="#speakers">Speakers</a>
                             </li>
                             <li>
-                                <a href="#events">Events</a>
+                                <a
+                                    href="https://keepthescore.co/board/sdpdsfxdymqmr/"
+                                    target="_blank"
+                                >
+                                    Leaderboard
+                                </a>
                             </li>
                             <li>
                                 <a href="#timeline">Timeline</a>
