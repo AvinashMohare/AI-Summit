@@ -28,6 +28,13 @@ const SpeakersList = [
         url: "https://www.linkedin.com/in/akshayz/",
         co: "BabyVerse",
     },
+    {
+        image: "https://media.licdn.com/dms/image/C4E03AQHy74cQXZU5Nw/profile-displayphoto-shrink_400_400/0/1591702102131?e=1685577600&v=beta&t=f626ajjuV6G7DP3ubH18L_i1Yu1BPVnFKpLrQs8ukaQ",
+        name: "Hemant Kshirsagar",
+        // about: "Coming Soon",
+        url: "https://www.linkedin.com/in/hemant-kshirsagar-31796279/",
+        co: "Kizora Software",
+    },
     // {
     //     image: "https://avatars.githubusercontent.com/u/50291544?v=4",
     //     name: "Sobhan Bera",
