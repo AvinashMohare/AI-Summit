@@ -37,7 +37,7 @@ const Timeline_Day2 = () => {
                     </li>
                     <li
                         className="event"
-                        data-date="12:30 PM - 2:30 PM"
+                        data-date="1:00 PM - 2:00 PM"
                         // data-aos="fade-left"
                         data-aos="fade-up"
                     >
@@ -49,7 +49,7 @@ const Timeline_Day2 = () => {
                     </li>
                     <li
                         className="event"
-                        data-date="01:30 PM - 3:00 PM"
+                        data-date="02:00 PM - 3:30 PM"
                         // data-aos="fade-left"
                         data-aos="fade-up"
                     >
@@ -62,7 +62,7 @@ const Timeline_Day2 = () => {
                     </li>
                     <li
                         className="event"
-                        data-date="3:00 PM - 4:30 PM"
+                        data-date="3:30 PM - 5:00 PM"
                         // data-aos="fade-left"
                         data-aos="fade-up"
                     >
@@ -75,7 +75,7 @@ const Timeline_Day2 = () => {
                     </li>
                     <li
                         className="event"
-                        data-date="4:30 PM - 5:00 PM"
+                        data-date="5:00 PM - 5:30 PM"
                         // data-aos="fade-left"
                         data-aos="fade-up"
                     >
