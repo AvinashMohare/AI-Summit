@@ -10,6 +10,7 @@ import jarvis from "../Assets/Images/Logos/JARVIS.png";
 // import jarvis_black from "../Assets/Images/Logos/JARVIS_black.png";
 import gdgc from "../Assets/Images/Logos/GDGC.png";
 import coe from "../Assets/Images/Logos/coeaiml.png";
+import mlsa from "../Assets/Images/Logos/mlsa.png";
 
 import classes from "../Assets/Styles/Presenters.module.scss";
 
@@ -36,6 +37,9 @@ const Presenters = () => {
                 </div>
                 <div className={classes.gdgc}>
                     <img src={gdgc} />
+                </div>
+                <div className={classes.mlsa}>
+                    <img src={mlsa} />
                 </div>
             </div>
         </div>
